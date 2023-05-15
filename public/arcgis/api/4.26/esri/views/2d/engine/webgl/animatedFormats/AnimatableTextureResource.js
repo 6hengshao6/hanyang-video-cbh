@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define(["exports","../../../../../chunks/_rollupPluginBabelHelpers","../../../../../core/maybe","../definitions","./utils"],function(d,h,k,e,l){let p=function(){function f(b,a,c,m){this._animation=b;this._frameData=null;this.frameCount=this._animation.frameDurations.length;this.width=this._animation.width;this.height=this._animation.height;this._playHandle=l.play(this._animation,c,m,n=>{this._frameData=n;a.requestRender()})}var g=f.prototype;g.destroy=function(){this._playHandle.remove()};g.bindFrame=
+function(b,a,c){b.bindTexture(a,c);k.isNone(this._frameData)||(a.updateData(0,e.SPRITE_PADDING,e.SPRITE_PADDING,this._frameData.width,this._frameData.height,this._frameData),this._frameData=null)};return h._createClass(f)}();d.AnimatableTextureResource=p;Object.defineProperty(d,Symbol.toStringTag,{value:"Module"})});

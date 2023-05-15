@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define(["exports","../../chunks/_rollupPluginBabelHelpers","../../core/maybe","./ElevationSamplerData"],function(p,t,d,u){let A=function(){function m(a,b=null){this.tile=a;d.isSome(b)&&d.isSome(a)&&(this._samplerData=new u.ElevationSamplerData(b,a.extent))}m.prototype.sample=function(a,b){if(!d.isNone(this._samplerData)){var {safeWidth:g,data:v,dx:w,dy:x,y1:y,x0:z}=this._samplerData,{width:q,values:h,noDataValue:k}=v;b=x*(y-b);b=0>b?0:b>g?g:b;a=w*(a-z);var l=0>a?0:a>g?g:a;a=Math.floor(b);var r=Math.floor(l),
+c=a*q+r,e=c+q,f=h[c],n=h[e];c=h[c+1];e=h[e+1];if(f!==k&&n!==k&&c!==k&&e!==k)return l-=r,f+=(c-f)*l,f+(n+(e-n)*l-f)*(b-a)}};t._createClass(m,[{key:"zmin",get:function(){return d.isSome(this._samplerData)?this._samplerData.data.minValue:0}},{key:"zmax",get:function(){return d.isSome(this._samplerData)?this._samplerData.data.maxValue:0}}]);return m}();p.ElevationTile=A;Object.defineProperty(p,Symbol.toStringTag,{value:"Module"})});

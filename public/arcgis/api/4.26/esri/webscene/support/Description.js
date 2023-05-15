@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../chunks/_rollupPluginBabelHelpers ../../chunks/tslib.es6 ../../core/JSONSupport ../../core/accessorSupport/decorators/property ../../core/accessorSupport/ensureType ../../core/arrayUtils ../../core/has ../../core/accessorSupport/decorators/subclass".split(" "),function(c,e,a,g,m,n,p,h){var d;a=d=function(k){function b(){var f=l.apply(this,arguments);f.text="";return f}c._inherits(b,k);var l=c._createSuper(b);b.prototype.clone=function(){return new d({text:this.text})};return c._createClass(b)}(a.JSONSupport);
+e.__decorate([g.property({type:String,json:{write:!0}})],a.prototype,"text",void 0);return a=d=e.__decorate([h.subclass("esri.webscene.support.Description")],a)});

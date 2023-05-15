@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("exports ../../../../chunks/_rollupPluginBabelHelpers ../SnappingConstraint ../SnappingDomain ./SnappingCandidate ../hints/IntersectionSnappingHint".split(" "),function(e,c,h,k,d,l){d=function(m){function b(a,f,g,n){a=p.call(this,a,new h.IntersectionConstraint(a,f.constraint,g.constraint),n,k.SnappingDomain.ALL);a.first=f;a.second=g;return a}c._inherits(b,m);var p=c._createSuper(b);c._createClass(b,[{key:"hints",get:function(){this.first.targetPoint=this.targetPoint;this.second.targetPoint=
+this.targetPoint;return[...this.first.hints,...this.second.hints,new l.IntersectionSnappingHint(this.targetPoint,this.isDraped,this.domain)]}}]);return b}(d.SnappingCandidate);e.IntersectionSnappingCandidate=d;Object.defineProperty(e,Symbol.toStringTag,{value:"Module"})});

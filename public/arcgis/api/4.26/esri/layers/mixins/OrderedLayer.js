@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("exports ../../chunks/_rollupPluginBabelHelpers ../../chunks/tslib.es6 ../../core/object ../../core/accessorSupport/decorators/property ../../core/accessorSupport/ensureType ../../core/arrayUtils ../../core/has ../../core/accessorSupport/decorators/subclass ../support/OrderByInfo".split(" "),function(g,f,h,l,m,r,t,u,n,k){function p(a,b,c){if(!a)return null;a=a.find(d=>!!d.field);if(!a)return null;b=new k;b.read(a,c);return[b]}function q(a,b,c,d){(a=a.find(e=>!!e.field))&&l.setDeepValue(c,[a.toJSON()],
+b)}g.OrderedLayer=a=>{a=function(b){function c(){var e=d.apply(this,arguments);e.orderBy=null;return e}f._inherits(c,b);var d=f._createSuper(c);return f._createClass(c)}(a);h.__decorate([m.property({type:[k],json:{origins:{"web-scene":{write:!1,read:!1}},read:{source:"layerDefinition.orderBy",reader:p},write:{target:"layerDefinition.orderBy",writer:q}}})],a.prototype,"orderBy",void 0);return a=h.__decorate([n.subclass("esri.layers.mixins.OrderedLayer")],a)};Object.defineProperty(g,Symbol.toStringTag,
+{value:"Module"})});

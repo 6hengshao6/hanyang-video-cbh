@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("exports ../../../../chunks/_rollupPluginBabelHelpers ../SnappingConstraint ../snappingUtils ./FeatureSnappingCandidate ../hints/LineSnappingHint".split(" "),function(e,b,f,g,c,h){c=function(k){function a(d){return l.call(this,{...d,constraint:new f.LineConstraint(d.edgeStart,d.edgeEnd)})}b._inherits(a,k);var l=b._createSuper(a);b._createClass(a,[{key:"hints",get:function(){return[new h.LineSnappingHint(g.LineSegmentHintType.REFERENCE,this.constraint.start,this.constraint.end,this.isDraped,
+this.domain)]}}]);return a}(c.FeatureSnappingCandidate);e.EdgeSnappingCandidate=c;Object.defineProperty(e,Symbol.toStringTag,{value:"Module"})});

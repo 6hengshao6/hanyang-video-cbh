@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("exports ../../../../chunks/_rollupPluginBabelHelpers ../../../../chunks/tslib.es6 ../../../../core/accessorSupport/decorators/property ../../../../core/accessorSupport/ensureType ../../../../core/arrayUtils ../../../../core/has ../../../../core/accessorSupport/decorators/subclass ../css ../../../../widgets/Widget ../../../../widgets/support/widgetUtils ../../../../widgets/support/jsxFactory".split(" "),function(a,e,b,f,q,r,t,h,k,l,u,c){var m=`${k.BASE}-value-by-value`;a.ValueByValue=function(n){function d(){var g=
+p.apply(this,arguments);g.divider="\u00d7";return g}e._inherits(d,n);var p=e._createSuper(d);d.prototype.render=function(){return c.tsx("div",{class:m},c.tsx("span",null,this.left),c.tsx("span",null,this.divider),c.tsx("span",null,this.right))};return e._createClass(d)}(l);b.__decorate([f.property()],a.ValueByValue.prototype,"left",void 0);b.__decorate([f.property()],a.ValueByValue.prototype,"divider",void 0);b.__decorate([f.property()],a.ValueByValue.prototype,"right",void 0);a.ValueByValue=b.__decorate([h.subclass("esri.views.interactive.tooltip.support.ValueByValue")],
+a.ValueByValue);Object.defineProperty(a,Symbol.toStringTag,{value:"Module"})});

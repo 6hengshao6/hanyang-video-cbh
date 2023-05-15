@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../../chunks/_rollupPluginBabelHelpers ../../../chunks/tslib.es6 ../../../core/JSONSupport ../../../core/accessorSupport/decorators/property ../../../core/accessorSupport/ensureType ../../../core/arrayUtils ../../../core/has ../../../core/accessorSupport/decorators/subclass".split(" "),function(d,c,a,e,l,m,n,g){a=function(h){function f(b){b=k.call(this,b);b.versionName=void 0;b.description=null;b.accessPermission="private";return b}d._inherits(f,h);var k=d._createSuper(f);return d._createClass(f)}(a.JSONSupport);
+c.__decorate([e.property({type:String,json:{write:!0}})],a.prototype,"versionName",void 0);c.__decorate([e.property({type:String,json:{write:!0}})],a.prototype,"description",void 0);c.__decorate([e.property({type:["private","public","protected","hidden"],json:{write:!0}})],a.prototype,"accessPermission",void 0);return a=c.__decorate([g.subclass("esri.rest.versionManagementService.support.CreateVersionParameters")],a)});

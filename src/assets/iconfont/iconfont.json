@@ -1,0 +1,254 @@
+{
+  "id": "2160323",
+  "name": "铁职",
+  "font_family": "iconfont",
+  "css_prefix_text": "el-icon-my-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "6445936",
+      "name": "首页",
+      "font_class": "dashboard",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "17974935",
+      "name": "设备代码异常管理",
+      "font_class": "codeStandardCate",
+      "unicode": "e866",
+      "unicode_decimal": 59494
+    },
+    {
+      "icon_id": "17881071",
+      "name": "api",
+      "font_class": "pushApi",
+      "unicode": "e864",
+      "unicode_decimal": 59492
+    },
+    {
+      "icon_id": "17879376",
+      "name": "标准代码",
+      "font_class": "codeStandardManager",
+      "unicode": "e85d",
+      "unicode_decimal": 59485
+    },
+    {
+      "icon_id": "17879344",
+      "name": "数据项总数",
+      "font_class": "masterDataManager",
+      "unicode": "e85c",
+      "unicode_decimal": 59484
+    },
+    {
+      "icon_id": "17872828",
+      "name": "草稿箱",
+      "font_class": "messageInfo",
+      "unicode": "e850",
+      "unicode_decimal": 59472
+    },
+    {
+      "icon_id": "17879225",
+      "name": "平台运维",
+      "font_class": "dataItemList",
+      "unicode": "e85b",
+      "unicode_decimal": 59483
+    },
+    {
+      "icon_id": "17872166",
+      "name": "项目任务",
+      "font_class": "rulesList",
+      "unicode": "e848",
+      "unicode_decimal": 59464
+    },
+    {
+      "icon_id": "17873608",
+      "name": "工单管理",
+      "font_class": "menuManager",
+      "unicode": "e856",
+      "unicode_decimal": 59478
+    },
+    {
+      "icon_id": "17871990",
+      "name": "设置",
+      "font_class": "MIS_shezhi-copy",
+      "unicode": "e845",
+      "unicode_decimal": 59461
+    },
+    {
+      "icon_id": "17874597",
+      "name": "订单管理",
+      "font_class": "rulesManager",
+      "unicode": "e858",
+      "unicode_decimal": 59480
+    },
+    {
+      "icon_id": "17880001",
+      "name": "分销管理",
+      "font_class": "MIS_fenxiaoguanli-copy",
+      "unicode": "e860",
+      "unicode_decimal": 59488
+    },
+    {
+      "icon_id": "17880740",
+      "name": "店铺装修",
+      "font_class": "codeStandardList",
+      "unicode": "e863",
+      "unicode_decimal": 59491
+    },
+    {
+      "icon_id": "17874506",
+      "name": "超级官网",
+      "font_class": "system",
+      "unicode": "e857",
+      "unicode_decimal": 59479
+    },
+    {
+      "icon_id": "17874676",
+      "name": "数据报表",
+      "font_class": "dataItemManager",
+      "unicode": "e859",
+      "unicode_decimal": 59481
+    },
+    {
+      "icon_id": "17874677",
+      "name": "电子说明书",
+      "font_class": "dataItemCate",
+      "unicode": "e85a",
+      "unicode_decimal": 59482
+    },
+    {
+      "icon_id": "17872258",
+      "name": "岗位权限",
+      "font_class": "groupManager",
+      "unicode": "e849",
+      "unicode_decimal": 59465
+    },
+    {
+      "icon_id": "17872808",
+      "name": "消息通知",
+      "font_class": "messageManager",
+      "unicode": "e84e",
+      "unicode_decimal": 59470
+    },
+    {
+      "icon_id": "17872924",
+      "name": "服务管理",
+      "font_class": "serviceManager",
+      "unicode": "e851",
+      "unicode_decimal": 59473
+    },
+    {
+      "icon_id": "17872928",
+      "name": "服务运维",
+      "font_class": "authManager",
+      "unicode": "e852",
+      "unicode_decimal": 59474
+    },
+    {
+      "icon_id": "17872527",
+      "name": "规章制度",
+      "font_class": "guizhangzhidu-copy",
+      "unicode": "e84b",
+      "unicode_decimal": 59467
+    },
+    {
+      "icon_id": "17872676",
+      "name": "API管理",
+      "font_class": "apiManager",
+      "unicode": "e84d",
+      "unicode_decimal": 59469
+    },
+    {
+      "icon_id": "10726359",
+      "name": "电子名片",
+      "font_class": "unifiedLoginUserManager",
+      "unicode": "e785",
+      "unicode_decimal": 59269
+    },
+    {
+      "icon_id": "10726362",
+      "name": "基本信息",
+      "font_class": "unifiedLoginManager",
+      "unicode": "e788",
+      "unicode_decimal": 59272
+    },
+    {
+      "icon_id": "17872090",
+      "name": "运营管理",
+      "font_class": "baseManager",
+      "unicode": "e846",
+      "unicode_decimal": 59462
+    },
+    {
+      "icon_id": "17880023",
+      "name": "企业云盘",
+      "font_class": "pullApi",
+      "unicode": "e861",
+      "unicode_decimal": 59489
+    },
+    {
+      "icon_id": "17872819",
+      "name": "公告管理",
+      "font_class": "messageTopic",
+      "unicode": "e84f",
+      "unicode_decimal": 59471
+    },
+    {
+      "icon_id": "17872498",
+      "name": "CRM管理",
+      "font_class": "groupTypeManager",
+      "unicode": "e84a",
+      "unicode_decimal": 59466
+    },
+    {
+      "icon_id": "17873174",
+      "name": "待办事项",
+      "font_class": "gateLogManager",
+      "unicode": "e854",
+      "unicode_decimal": 59476
+    },
+    {
+      "icon_id": "17880308",
+      "name": "日程管理",
+      "font_class": "MIS_richengguanli-copy",
+      "unicode": "e862",
+      "unicode_decimal": 59490
+    },
+    {
+      "icon_id": "17872155",
+      "name": "用户管理",
+      "font_class": "userManager",
+      "unicode": "e847",
+      "unicode_decimal": 59463
+    },
+    {
+      "icon_id": "17873405",
+      "name": "模块分类",
+      "font_class": "resourceManager",
+      "unicode": "e855",
+      "unicode_decimal": 59477
+    },
+    {
+      "icon_id": "17872555",
+      "name": "办公笔记",
+      "font_class": "serviceEurekaManager",
+      "unicode": "e84c",
+      "unicode_decimal": 59468
+    },
+    {
+      "icon_id": "17879741",
+      "name": "产品设置",
+      "font_class": "masterDataList",
+      "unicode": "e85f",
+      "unicode_decimal": 59487
+    },
+    {
+      "icon_id": "17873125",
+      "name": "会议文件",
+      "font_class": "monitorManager",
+      "unicode": "e853",
+      "unicode_decimal": 59475
+    }
+  ]
+}

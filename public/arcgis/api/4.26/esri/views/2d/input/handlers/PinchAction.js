@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define(["exports","../../../../chunks/_rollupPluginBabelHelpers","../../../input/DragEventSeparator","../../../input/InputHandler"],function(l,f,m,g){g=function(d){function e(h){var a=n.call(this,!0);a.view=h;a.registerIncoming("drag",c=>a._handleDrag(c));a.registerIncoming("pointer-down",()=>a._stopMomentumNavigation());const k=a.view.mapViewNavigation;a._dragEventSeparator=new m.DragEventSeparator({start:(c,b)=>{k.pinch.begin(a.view,b.data);b.stopPropagation()},update:(c,b)=>{k.pinch.update(a.view,
+b.data);b.stopPropagation()},end:(c,b)=>{k.pinch.end(a.view);b.stopPropagation()},condition:c=>2<=c});return a}f._inherits(e,d);var n=f._createSuper(e);d=e.prototype;d._handleDrag=function(h){this._dragEventSeparator.handle(h)};d._stopMomentumNavigation=function(){this.view.mapViewNavigation.pinch.stopMomentumNavigation()};return f._createClass(e)}(g.InputHandler);l.PinchRotateAndZoom=g;Object.defineProperty(l,Symbol.toStringTag,{value:"Module"})});

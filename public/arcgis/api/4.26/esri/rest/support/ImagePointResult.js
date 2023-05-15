@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../chunks/_rollupPluginBabelHelpers ../../chunks/tslib.es6 ../../geometry ../../core/accessorSupport/decorators/property ../../core/accessorSupport/ensureType ../../core/arrayUtils ../../core/has ../../core/accessorSupport/decorators/subclass ./BaseImageMeasureResult ../../geometry/Point".split(" "),function(b,d,a,f,n,p,q,g,h,k){a=function(l){function c(){var e=m.apply(this,arguments);e.point=null;return e}b._inherits(c,l);var m=b._createSuper(c);return b._createClass(c)}(h.BaseImageMeasureResult);
+d.__decorate([f.property({type:k,json:{name:"point.value",read:!0,write:!0}})],a.prototype,"point",void 0);return a=d.__decorate([g.subclass("esri.rest.support.ImagePointResult")],a)});

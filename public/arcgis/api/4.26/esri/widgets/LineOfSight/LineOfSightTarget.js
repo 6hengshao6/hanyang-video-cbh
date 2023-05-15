@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../chunks/_rollupPluginBabelHelpers ../../chunks/tslib.es6 ../../Graphic ../../core/Accessor ../../core/accessorSupport/decorators/property ../../core/accessorSupport/ensureType ../../core/arrayUtils ../../core/has ../../core/accessorSupport/decorators/subclass ../../geometry/Point".split(" "),function(e,c,h,a,d,n,p,q,k,g){a=function(l){function f(b){b=m.call(this,b);b.location=null;b.intersectedLocation=null;b.intersectedGraphic=null;b.visible=void 0;return b}e._inherits(f,l);var m=e._createSuper(f);
+return e._createClass(f)}(a);c.__decorate([d.property({type:g})],a.prototype,"location",void 0);c.__decorate([d.property({type:g})],a.prototype,"intersectedLocation",void 0);c.__decorate([d.property({type:h})],a.prototype,"intersectedGraphic",void 0);c.__decorate([d.property({type:Boolean})],a.prototype,"visible",void 0);return a=c.__decorate([k.subclass("esri.widgets.lineOfSight.LineOfSightTarget")],a)});

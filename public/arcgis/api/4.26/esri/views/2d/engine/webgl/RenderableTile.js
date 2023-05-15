@@ -1,0 +1,4 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define(["exports","../../../../chunks/_rollupPluginBabelHelpers","../../../../chunks/mat3f32","./TiledDisplayObject"],function(d,b,e,c){c=function(f){function a(){return g.apply(this,arguments)}b._inherits(a,f);var g=b._createSuper(a);a.prototype._createTransforms=function(){return{dvs:e.create(),tileMat3:e.create()}};return b._createClass(a)}(c.TiledDisplayObject);d.RenderableTile=c;Object.defineProperty(d,Symbol.toStringTag,{value:"Module"})});

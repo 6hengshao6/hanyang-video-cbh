@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../../chunks/_rollupPluginBabelHelpers ../../../chunks/tslib.es6 ../../../core/Accessor ../../../core/accessorSupport/decorators/property ../../../core/accessorSupport/ensureType ../../../core/arrayUtils ../../../core/has ../../../core/accessorSupport/decorators/subclass".split(" "),function(e,c,a,f,m,n,p,h){var g;a=g=function(k){function d(b){b=l.call(this,b);b.fieldName=null;b.tooltip=null;b.value=null;return b}e._inherits(d,k);var l=e._createSuper(d);d.prototype.clone=function(){return new g({fieldName:this.fieldName,
+tooltip:this.tooltip,value:this.value})};return e._createClass(d)}(a);c.__decorate([f.property()],a.prototype,"fieldName",void 0);c.__decorate([f.property()],a.prototype,"tooltip",void 0);c.__decorate([f.property()],a.prototype,"value",void 0);return a=g=c.__decorate([h.subclass("esri.popup.content.support.ChartMediaInfoValueSeries")],a)});

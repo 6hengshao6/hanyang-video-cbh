@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define(["exports","../../request","../utils","./support/TraceResult"],function(h,k,f,l){h.trace=async function(e,c,g){e=f.parseUrl(e);var d=c.toJSON();d.traceLocations=JSON.stringify(c.traceLocations);c.resultTypes&&(d.resultTypes=JSON.stringify(c.resultTypes));d=f.encode({...e.query,...d,f:"json"});g=f.asValidOptions(d,g);return k(`${e.path}/trace`,g).then(a=>{var b=c.outSpatialReference;({data:a}=a);a?(a=l.fromJSON(a.traceResults),a.aggregatedGeometry&&b&&(a.aggregatedGeometry.line&&(a.aggregatedGeometry.line.spatialReference=
+b.clone()),a.aggregatedGeometry.multipoint&&(a.aggregatedGeometry.multipoint.spatialReference=b.clone()),a.aggregatedGeometry.polygon&&(a.aggregatedGeometry.polygon.spatialReference=b.clone())),b=a):b=null;return b})};Object.defineProperty(h,Symbol.toStringTag,{value:"Module"})});

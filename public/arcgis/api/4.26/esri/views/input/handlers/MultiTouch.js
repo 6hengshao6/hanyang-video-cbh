@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define(["exports","../../../chunks/_rollupPluginBabelHelpers","../../../core/accessorSupport/tracking/ObservableValue","../InputHandler"],function(f,d,g,e){e=function(h){function b(){var a=k.call(this,!0);a._activeTouchPointerIds=new Set;a._multiTouchActive=new g.ObservableValue(!1);a._onPointerAdd=({data:c})=>{"touch"===c.pointerType&&(a._activeTouchPointerIds.add(c.native.pointerId),a._update())};a._onPointerRemove=({data:c})=>{"touch"===c.pointerType&&(a._activeTouchPointerIds.delete(c.native.pointerId),
+a._update())};a.registerIncoming("pointer-down",a._onPointerAdd);a.registerIncoming("pointer-up",a._onPointerRemove);a.registerIncoming("pointer-capture-lost",a._onPointerRemove);a.registerIncoming("pointer-cancel",a._onPointerRemove);return a}d._inherits(b,h);var k=d._createSuper(b);b.prototype._update=function(){this._multiTouchActive.set(1<this._activeTouchPointerIds.size)};d._createClass(b,[{key:"multiTouchActive",get:function(){return this._multiTouchActive.get()}}]);return b}(e.InputHandler);
+f.MultiTouch=e;Object.defineProperty(f,Symbol.toStringTag,{value:"Module"})});

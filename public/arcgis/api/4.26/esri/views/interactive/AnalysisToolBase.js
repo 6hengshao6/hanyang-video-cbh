@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("exports ../../chunks/_rollupPluginBabelHelpers ../../chunks/tslib.es6 ../../core/reactiveUtils ../../core/accessorSupport/decorators/property ../../core/accessorSupport/ensureType ../../core/arrayUtils ../../core/has ../../core/accessorSupport/decorators/subclass ./InteractiveToolBase".split(" "),function(a,d,e,g,h,n,p,q,k,l){a.AnalysisToolBase=function(b){function c(f){return m.call(this,f)}d._inherits(c,b);var m=d._createSuper(c);b=c.prototype;b.initialize=function(){this.addHandles(g.watch(()=>
+this.analysisViewData.visible,f=>this.visible=f,g.syncAndInitial))};b.deactivate=function(){this.onDeactivate();this.created||this.analysis.clear()};b.resetCreated=function(){this._set("created",!1)};return d._createClass(c)}(l.InteractiveToolBase);e.__decorate([h.property({constructOnly:!0})],a.AnalysisToolBase.prototype,"analysis",void 0);e.__decorate([h.property()],a.AnalysisToolBase.prototype,"analysisViewData",void 0);a.AnalysisToolBase=e.__decorate([k.subclass("esri.views.interactive.AnalysisToolBase")],
+a.AnalysisToolBase);Object.defineProperty(a,Symbol.toStringTag,{value:"Module"})});

@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../chunks/_rollupPluginBabelHelpers ../../chunks/tslib.es6 ../../core/Collection ../../core/JSONSupport ../../core/lang ../../core/accessorSupport/decorators/property ../../core/accessorSupport/ensureType ../../core/accessorSupport/decorators/subclass ./BuildingFilterAuthoringInfoType".split(" "),function(c,f,d,a,g,h,p,k,l){var e;d=d.ofType(l);a=e=function(m){function b(){return n.apply(this,arguments)}c._inherits(b,m);var n=c._createSuper(b);b.prototype.clone=function(){return new e({filterTypes:g.clone(this.filterTypes)})};
+return c._createClass(b)}(a.JSONSupport);f.__decorate([h.property({type:d,json:{write:!0}})],a.prototype,"filterTypes",void 0);return a=e=f.__decorate([k.subclass("esri.layers.support.BuildingFilterAuthoringInfoBlock")],a)});

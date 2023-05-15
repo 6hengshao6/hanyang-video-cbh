@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("exports ../../../../chunks/_rollupPluginBabelHelpers ../../../../chunks/tslib.es6 ../../../../core/accessorSupport/decorators/property ../../../../core/accessorSupport/ensureType ../../../../core/arrayUtils ../../../../core/has ../../../../core/accessorSupport/decorators/subclass ../../../../chunks/mat4f64 ./Camera".split(" "),function(a,c,d,e,n,p,q,g,h,k){a.CascadeCamera=function(l){function b(){var f=m.apply(this,arguments);f._projectionMatrix=h.create();return f}c._inherits(b,l);var m=
+c._createSuper(b);c._createClass(b,[{key:"projectionMatrix",get:function(){return this._projectionMatrix}}]);return b}(k.Camera);d.__decorate([e.property()],a.CascadeCamera.prototype,"_projectionMatrix",void 0);d.__decorate([e.property({readOnly:!0})],a.CascadeCamera.prototype,"projectionMatrix",null);a.CascadeCamera=d.__decorate([g.subclass("esri.views.3d.webgl-engine.lib.CascadeCamera")],a.CascadeCamera);Object.defineProperty(a,Symbol.toStringTag,{value:"Module"})});

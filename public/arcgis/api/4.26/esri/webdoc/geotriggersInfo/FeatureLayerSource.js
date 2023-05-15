@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../chunks/_rollupPluginBabelHelpers ../../chunks/tslib.es6 ../../core/Clonable ../../core/JSONSupport ../../core/accessorSupport/decorators/property ../../core/accessorSupport/ensureType ../../core/arrayUtils ../../core/has ../../core/accessorSupport/decorators/enumeration ../../core/accessorSupport/decorators/subclass".split(" "),function(d,c,a,g,f,n,p,q,h,k){a=function(l){function e(b){b=m.call(this,b);b.layerId=null;b.layerUrl=null;b.type="feature-layer";return b}d._inherits(e,l);var m=
+d._createSuper(e);return d._createClass(e)}(a.ClonableMixin(g.JSONSupport));c.__decorate([f.property({type:String,json:{write:{overridePolicy(){return{isRequired:null===this.layerUrl}}}}})],a.prototype,"layerId",void 0);c.__decorate([f.property({type:String,json:{write:{overridePolicy(){return{isRequired:null===this.layerId}}}}})],a.prototype,"layerUrl",void 0);c.__decorate([h.enumeration({featureLayer:"feature-layer"},{readOnly:!0})],a.prototype,"type",void 0);return a=c.__decorate([k.subclass("esri.webdoc.geotriggersInfo.FeatureLayerSource")],
+a)});

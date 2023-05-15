@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("require exports ../../core/maybe ../../core/promiseUtils ../Mesh ./meshUtils/georeference ./meshUtils/merge".split(" "),function(f,d,h,k,l,g,m){d.createElevationSampler=async function(a,c){await a.load();return(await new Promise((b,e)=>f(["./meshUtils/elevationSampler"],b,e))).create(a,c)};d.createFromElevation=async function(a,c,b){const e=await new Promise((n,p)=>f(["./meshUtils/elevation"],n,p));k.throwIfAborted(b);return e.create(a,c,b)};d.georeference=function(a,c,b){return g.georeference(a,
+c,b)};d.merge=function(a){a=m.merge(a);return h.isSome(a)?new l(a):null};d.ungeoreference=function(a,c,b){return g.ungeoreference(a,c,b)};Object.defineProperty(d,Symbol.toStringTag,{value:"Module"})});

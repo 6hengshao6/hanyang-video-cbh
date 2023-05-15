@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../chunks/_rollupPluginBabelHelpers ../../chunks/tslib.es6 ../../core/lang ../../core/accessorSupport/decorators/property ../../core/accessorSupport/ensureType ../../core/accessorSupport/decorators/subclass ./Content".split(" "),function(f,c,h,d,a,k,l){var g;a=g=function(m){function e(b){b=n.call(this,b);b.creator=null;b.destroyer=null;b.outFields=null;b.type="custom";return b}f._inherits(e,m);var n=f._createSuper(e);e.prototype.clone=function(){return new g({creator:this.creator,destroyer:this.destroyer,
+outFields:Array.isArray(this.outFields)?h.clone(this.outFields):null})};return f._createClass(e)}(l);c.__decorate([d.property()],a.prototype,"creator",void 0);c.__decorate([d.property()],a.prototype,"destroyer",void 0);c.__decorate([d.property()],a.prototype,"outFields",void 0);c.__decorate([d.property({type:["custom"],readOnly:!0})],a.prototype,"type",void 0);return a=g=c.__decorate([k.subclass("esri.popup.content.CustomContent")],a)});

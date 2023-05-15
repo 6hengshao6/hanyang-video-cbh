@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("exports ../../../../geometry ../../../../core/maybe ../../../../core/promiseUtils ../../../../layers/graphics/dehydratedFeatures ../../../../support/elevationInfoUtils ./elevationAlignmentUtils ./ElevationContext ./featureExpressionInfoUtils ../../../../geometry/SpatialReference".split(" "),function(h,H,v,w,x,y,k,z,l,A){const d=new z.ElevationContext,c=x.makeDehydratedPoint(0,0,0,A.WGS84),m=new k.SampleElevationInfo;h.elevationAlignPointsInFeatures=async function(n,p,B,a,b){const {elevationProvider:C,
+renderCoordsHelper:D,spatialReference:E}=n,{elevationInfo:q}=p;var e=l.extractExpressionInfo(q,!0);e=await l.createContext(e,E,b);w.throwIfAborted(b);b=[];const r=new Set,t=new Set;for(const {objectId:f,points:u}of a)if(a=B(f),v.isNone(a)){for(const g of u)b.push(g[2]);r.add(f)}else{a.isDraped&&t.add(f);d.setFromElevationInfo(y.getGeometryEffectiveElevationInfo(a.graphic.geometry,q));d.updateFeatureExpressionInfoContext(e,a.graphic,p);c.spatialReference=n.spatialReference;for(const {x:g,y:F,z:G}of u)c.x=
+g,c.y=F,c.z=G??0,k.evaluateElevationInfoAtPoint(c,C,d,D,m),b.push(m.z)}return{elevations:b,drapedObjectIds:t,failedObjectIds:r}};Object.defineProperty(h,Symbol.toStringTag,{value:"Module"})});

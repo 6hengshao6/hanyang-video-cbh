@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define(["exports","../../../../chunks/_rollupPluginBabelHelpers","../../../input/InputHandler","../../../input/handlers/support"],function(g,e,f,h){f=function(k){function b(a,c){var d=l.call(this,!0);d._view=a;d.registerIncoming("double-click",c,m=>d._handleDoubleClick(m,c));return d}e._inherits(b,k);var l=e._createSuper(b);b.prototype._handleDoubleClick=function(a,c){h.eventMatchesPointerAction(a.data,"primary")&&(a.stopPropagation(),c?this._view.mapViewNavigation.zoomOut([a.data.x,a.data.y]):this._view.mapViewNavigation.zoomIn([a.data.x,
+a.data.y]))};return e._createClass(b)}(f.InputHandler);g.DoubleClickZoom=f;Object.defineProperty(g,Symbol.toStringTag,{value:"Module"})});

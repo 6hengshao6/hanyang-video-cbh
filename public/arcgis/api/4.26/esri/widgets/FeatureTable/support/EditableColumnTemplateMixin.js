@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("exports ../../../chunks/_rollupPluginBabelHelpers ../../../chunks/tslib.es6 ../../../core/accessorSupport/decorators/property ../../../core/accessorSupport/ensureType ../../../core/arrayUtils ../../../core/has ../../../core/accessorSupport/decorators/subclass ../../../form/elements/support/inputs".split(" "),function(g,e,b,d,n,p,q,h,k){g.EditableColumnTemplateMixin=a=>{a=function(l){function f(){var c=m.apply(this,arguments);c.editable=!0;c.hint=null;c.input=null;c.required=!1;return c}e._inherits(f,
+l);var m=e._createSuper(f);return e._createClass(f)}(a);b.__decorate([d.property({type:Boolean,json:{write:!0}})],a.prototype,"editable",void 0);b.__decorate([d.property({type:String,json:{write:!0}})],a.prototype,"hint",void 0);b.__decorate([d.property({types:k.types,json:{read:{source:"inputType"},write:{target:"inputType"}}})],a.prototype,"input",void 0);b.__decorate([d.property()],a.prototype,"required",void 0);return a=b.__decorate([h.subclass("esri.widgets.FeatureTable.support.EditableColumnTemplateMixin")],
+a)};Object.defineProperty(g,Symbol.toStringTag,{value:"Module"})});

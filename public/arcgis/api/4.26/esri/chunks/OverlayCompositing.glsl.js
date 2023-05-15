@@ -1,0 +1,8 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("exports ./_rollupPluginBabelHelpers ../views/3d/terrain/interfaces ../views/3d/webgl-engine/core/shaderLibrary/ScreenSpacePass.glsl ../views/3d/webgl-engine/core/shaderModules/FloatPassUniform ../views/3d/webgl-engine/core/shaderModules/IntegerPassUniform ../views/3d/webgl-engine/core/shaderModules/interfaces ../views/3d/webgl-engine/core/shaderModules/ShaderBuilder ../views/3d/webgl-engine/core/shaderModules/Texture2DPassUniform".split(" "),function(c,d,k,l,m,n,f,p,q){function g(){const b=
+new p.ShaderBuilder;b.include(l.ScreenSpacePass);b.fragment.uniforms.add(new q.Texture2DPassUniform("tex",a=>a.texture));b.fragment.uniforms.add(new n.IntegerPassUniform("overlayIdx",a=>a.overlayIndex));b.fragment.uniforms.add(new m.FloatPassUniform("opacity",a=>a.opacity));b.fragment.code.add(f.glsl`void main() {
+vec2 overlayUV = overlayIdx == 0 ? vec2(uv.x * 0.5, uv.y) : vec2(uv.x * 0.5 + 0.5, uv.y);
+fragColor = texture(tex, overlayUV) * opacity;
+}`);return b}let h=function(b){function a(){var e=r.apply(this,arguments);e.overlayIndex=k.OverlayIndex.INNER;e.opacity=1;return e}d._inherits(a,b);var r=d._createSuper(a);return d._createClass(a)}(f.NoParameters);const t=Object.freeze(Object.defineProperty({__proto__:null,OverlayCompositingPassParameters:h,build:g},Symbol.toStringTag,{value:"Module"}));c.OverlayCompositing=t;c.OverlayCompositingPassParameters=h;c.build=g});

@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("exports ../../../../chunks/_rollupPluginBabelHelpers ../../../../core/maybe ../Manipulator3D ./GrabbingState ./ManipulatorType".split(" "),function(e,g,h,k,b,c){let m=function(){function f(){this.grabbingState=b.GrabbingState.NONE;this.firstSelected=this.zManipulator=null;this.numSelected=0;this.firstGrabbedXY=null}f.prototype.update=function(l){this.grabbingState=b.GrabbingState.NONE;this.zManipulator=null;this.numSelected=0;this.firstGrabbedXY=this.firstSelected=null;l.forEachManipulator((a,
+d)=>{d===c.ManipulatorType.TRANSLATE_Z&&(this.zManipulator=a);a instanceof k.Manipulator3D&&(a.selected&&(0===this.numSelected&&(this.firstSelected=a),this.numSelected++),h.isNone(this.firstGrabbedXY)&&a.grabbing&&d===c.ManipulatorType.TRANSLATE_XY&&(this.firstGrabbedXY=a));if(a.grabbing)switch(this.grabbingState|=b.GrabbingState.ANY,d){case c.ManipulatorType.TRANSLATE_Z:this.grabbingState|=b.GrabbingState.Z;break;case c.ManipulatorType.TRANSLATE_XY:this.grabbingState|=b.GrabbingState.XY}})};return g._createClass(f)}();
+e.ManipulatorState=m;Object.defineProperty(e,Symbol.toStringTag,{value:"Module"})});

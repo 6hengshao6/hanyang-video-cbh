@@ -1,0 +1,4 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define(["exports","../chunks/_rollupPluginBabelHelpers","../core/Version"],function(d,b,c){c=function(e){function a(f,g){return h.call(this,f,g,"webscene")}b._inherits(a,e);var h=b._createSuper(a);b._createClass(a,[{key:"supportsGround",get:function(){return this.since(1,8)}},{key:"supportsVisibleElevationLayersInSlides",get:function(){return this.lessThan(1,8)}}]);return a}(c.Version);d.Version=c;Object.defineProperty(d,Symbol.toStringTag,{value:"Module"})});

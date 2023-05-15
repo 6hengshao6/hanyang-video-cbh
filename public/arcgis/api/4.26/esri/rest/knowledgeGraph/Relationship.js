@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../chunks/_rollupPluginBabelHelpers ../../chunks/tslib.es6 ../../geometry ../../core/accessorSupport/decorators/property ../../core/accessorSupport/ensureType ../../core/arrayUtils ../../core/has ../../core/accessorSupport/decorators/subclass ./GraphNamedObject ../../geometry/Polyline".split(" "),function(d,c,a,e,n,p,q,g,h,k){a=function(l){function f(b){b=m.call(this,b);b.originId=null;b.destinationId=null;b.layoutGeometry=null;return b}d._inherits(f,l);var m=d._createSuper(f);return d._createClass(f)}(h);
+c.__decorate([e.property({type:String,json:{write:!0}})],a.prototype,"originId",void 0);c.__decorate([e.property({type:String,json:{write:!0}})],a.prototype,"destinationId",void 0);c.__decorate([e.property({type:k,json:{write:!0}})],a.prototype,"layoutGeometry",void 0);return a=c.__decorate([g.subclass("esri.rest.Relationship.Relationship")],a)});

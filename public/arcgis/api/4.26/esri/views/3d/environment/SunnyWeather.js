@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../../chunks/_rollupPluginBabelHelpers ../../../chunks/tslib.es6 ../../../core/JSONSupport ../../../core/accessorSupport/decorators/property ../../../core/accessorSupport/ensureType ../../../core/arrayUtils ../../../core/has ../../../core/accessorSupport/decorators/enumeration ../../../core/accessorSupport/decorators/subclass".split(" "),function(d,e,a,g,n,p,q,h,k){var f;a=f=function(l){function c(b){b=m.call(this,b);b.type="sunny";b.cloudCover=.5;return b}d._inherits(c,l);var m=d._createSuper(c);
+c.prototype.clone=function(){return new f({cloudCover:this.cloudCover})};return d._createClass(c)}(a.JSONSupport);e.__decorate([h.enumeration({sunny:"sunny"})],a.prototype,"type",void 0);e.__decorate([g.property({type:Number,nonNullable:!0,range:{min:0,max:1},json:{write:!0}})],a.prototype,"cloudCover",void 0);return a=f=e.__decorate([k.subclass("esri.views.3d.environment.SunnyWeather")],a)});

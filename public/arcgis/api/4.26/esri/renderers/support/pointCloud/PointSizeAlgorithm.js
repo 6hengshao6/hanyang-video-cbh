@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../../chunks/_rollupPluginBabelHelpers ../../../chunks/tslib.es6 ../../../core/jsonMap ../../../core/JSONSupport ../../../core/accessorSupport/decorators/property ../../../core/accessorSupport/ensureType ../../../core/arrayUtils ../../../core/has ../../../core/accessorSupport/decorators/subclass".split(" "),function(c,e,a,b,f,l,m,n,g){a=new a.JSONMap({pointCloudFixedSizeAlgorithm:"fixed-size",pointCloudSplatAlgorithm:"splat"});b=function(h){function d(){return k.apply(this,arguments)}c._inherits(d,
+h);var k=c._createSuper(d);return c._createClass(d)}(b.JSONSupport);e.__decorate([f.property({type:a.apiValues,readOnly:!0,nonNullable:!0,json:{type:a.jsonValues,read:!1,write:a.write}})],b.prototype,"type",void 0);return b=e.__decorate([g.subclass("esri.renderers.support.pointCloud.PointSizeAlgorithm")],b)});

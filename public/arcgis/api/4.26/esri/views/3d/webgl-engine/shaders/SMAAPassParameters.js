@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("exports ../../../../chunks/_rollupPluginBabelHelpers ../../../../chunks/vec4 ../../../../chunks/vec4f64 ../core/shaderModules/Float4PassUniform ../core/shaderModules/interfaces".split(" "),function(e,c,g,h,k,f){f=function(d){function a(){return b.apply(this,arguments)}c._inherits(a,d);var b=c._createSuper(a);return c._createClass(a)}(f.NoParameters);let l=function(d){function a(){return b.apply(this,arguments)}c._inherits(a,d);var b=c._createSuper(a);return c._createClass(a)}(f);const m=h.create();
+e.SMAAPassParameters=f;e.ValidSMAAPassParameters=l;e.addResolutionUniform=function(d){d.uniforms.add(new k.Float4PassUniform("resolution",a=>{var {descriptor:b}=a.colorTexture;a=b.width;b=b.height;return g.set(m,1/a,1/b,a,b)}))};Object.defineProperty(e,Symbol.toStringTag,{value:"Module"})});

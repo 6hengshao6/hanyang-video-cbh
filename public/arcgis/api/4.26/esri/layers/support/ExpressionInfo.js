@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../chunks/_rollupPluginBabelHelpers ../../chunks/tslib.es6 ../../core/Clonable ../../core/JSONSupport ../../core/accessorSupport/decorators/property ../../core/accessorSupport/ensureType ../../core/arrayUtils ../../core/has ../../core/accessorSupport/decorators/subclass".split(" "),function(d,c,a,g,e,m,n,p,h){a=function(k){function f(b){b=l.call(this,b);b.expression=null;b.title=null;b.returnType=null;return b}d._inherits(f,k);var l=d._createSuper(f);return d._createClass(f)}(a.ClonableMixin(g.JSONSupport));
+c.__decorate([e.property({type:String,json:{write:!0}})],a.prototype,"expression",void 0);c.__decorate([e.property({type:String,json:{write:!0}})],a.prototype,"title",void 0);c.__decorate([e.property({type:String,json:{write:!0}})],a.prototype,"returnType",void 0);return a=c.__decorate([h.subclass("esri.layers.support.ExpressionInfo")],a)});

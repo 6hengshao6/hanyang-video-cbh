@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../chunks/_rollupPluginBabelHelpers ../../chunks/tslib.es6 ../../core/accessorSupport/decorators/property ../../core/accessorSupport/ensureType ../../core/arrayUtils ../../core/has ../../core/accessorSupport/decorators/subclass ./GraphQuery".split(" "),function(c,b,d,a,m,n,f,g){a=function(h){function e(k){return l.call(this,k)}c._inherits(e,h);var l=c._createSuper(e);return c._createClass(e)}(g);b.__decorate([d.property()],a.prototype,"bindParameters",void 0);b.__decorate([d.property()],
+a.prototype,"bindGeometryQuantizationParameters",void 0);b.__decorate([d.property()],a.prototype,"outputQuantizationParameters",void 0);return a=b.__decorate([f.subclass("esri.rest.knowledgeGraph.GraphQueryStreaming")],a)});

@@ -1,0 +1,4 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define(["exports","../core/maybe","../core/unitUtils","../portal/Portal"],function(c,d,e,f){c.getDefaultUnitForView=function(b){if(d.isNone(b))return"metric";var a=b.map;a=(a&&"portalItem"in a?a.portalItem?.portal:null)??f.getDefault();switch(a.user?.units??a.units){case "metric":return"metric";case "english":return"imperial"}return d.unwrapOr(e.getDefaultUnitSystem(b.spatialReference),"metric")};Object.defineProperty(c,Symbol.toStringTag,{value:"Module"})});

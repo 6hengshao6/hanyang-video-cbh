@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../chunks/_rollupPluginBabelHelpers ../../chunks/tslib.es6 ../../geometry ../../core/JSONSupport ../../core/accessorSupport/decorators/property ../../core/accessorSupport/ensureType ../../core/arrayUtils ../../core/has ../../core/accessorSupport/decorators/subclass ../../geometry/support/jsonUtils ../../geometry/Polyline".split(" "),function(g,e,a,k,f,l,q,r,m,n,p){a=function(d){function b(c){c=h.call(this,c);c.calculationType=null;c.geodesic=null;c.lengthUnit=null;c.polylines=null;return c}
+g._inherits(b,d);var h=g._createSuper(b);return g._createClass(b)}(k.JSONSupport);e.__decorate([f.property({type:String,json:{write:!0}})],a.prototype,"calculationType",void 0);e.__decorate([f.property({type:Boolean,json:{write:!0}})],a.prototype,"geodesic",void 0);e.__decorate([f.property({json:{write:!0}})],a.prototype,"lengthUnit",void 0);e.__decorate([f.property({type:[p],json:{read:{reader:d=>d?d.map(b=>n.fromJSON(b)):null},write:{writer:(d,b)=>{b.polylines=d.map(h=>h.toJSON())}}}})],a.prototype,
+"polylines",void 0);a=e.__decorate([m.subclass("esri.rest.support.LengthsParameters")],a);a.from=l.ensureType(a);return a});

@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../chunks/_rollupPluginBabelHelpers ../../chunks/tslib.es6 ../../core/reactiveUtils ../../core/accessorSupport/decorators/property ../../core/accessorSupport/ensureType ../../core/arrayUtils ../../core/has ../../core/accessorSupport/decorators/subclass ../Widget".split(" "),function(d,e,f,g,a,p,q,h,k){a=function(l){function c(b,m){b=n.call(this,b,m);b.type=null;b.viewModel=null;return b}d._inherits(c,l);var n=d._createSuper(c);c.prototype.initialize=function(){this.addHandles([f.on(()=>
+this.viewModel,"animate",()=>{this.animate()}),f.on(()=>this.viewModel,"next",()=>{this.next()}),f.on(()=>this.viewModel,"previous",()=>{this.previous()})])};return d._createClass(c)}(k);e.__decorate([g.property()],a.prototype,"type",void 0);e.__decorate([g.property()],a.prototype,"viewModel",void 0);return a=e.__decorate([h.subclass("esri.widgets.ValuePicker.BaseComponent")],a)});

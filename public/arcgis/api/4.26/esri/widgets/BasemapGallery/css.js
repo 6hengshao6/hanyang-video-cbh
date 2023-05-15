@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define(["exports"],function(a){a.CSS={base:"esri-basemap-gallery esri-widget esri-widget--panel-height-only",sourceLoading:"esri-basemap-gallery--source-loading",loader:"esri-basemap-gallery__loader",item:"esri-basemap-gallery__item",itemContainer:"esri-basemap-gallery__item-container",itemTitle:"esri-basemap-gallery__item-title",itemThumbnail:"esri-basemap-gallery__item-thumbnail",selectedItem:"esri-basemap-gallery__item--selected",itemError:"esri-basemap-gallery__item--error",emptyMessage:"esri-widget__content--empty",
+widgetIcon:"esri-icon-basemap",disabled:"esri-disabled",loaderAnimation:"esri-widget__loader-animation"};Object.defineProperty(a,Symbol.toStringTag,{value:"Module"})});

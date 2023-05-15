@@ -1,0 +1,38 @@
+{
+  "editor.formatOnSave": true, // 每次保存的时候自动格式化
+  "editor.lineNumbers": "on", //开启行数提示
+  "editor.quickSuggestions": {
+    //开启自动显示建议
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
+  "editor.detectIndentation": false, // vscode默认启用了根据文件类型自动设置tabsize的选项
+  "editor.tabSize": 2, //制表符符号eslint
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "eslint.run": "onSave",
+  "eslint.validate": ["javascript", "javascriptreact", "vue", "html"],
+  "eslint.autoFixOnSave": true,
+  "files.autoSaveDelay": 10000,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": false,
+    "source.fixAll.eslint": true //保存自动修复, eslint.autoFixOnSave已废弃
+  },
+
+  "prettier.useTabs": false, //使用制表符缩进
+  "prettier.semi": false, //去掉代码结尾的分号
+  "prettier.singleQuote": true, //使用单引号替代双引号
+  "prettier.trailingComma": "none", //去除对象最末尾元素跟随的逗号
+  "prettier.printWidth": 120, //需要prettier.requireConfig格式化
+  "prettier.useEditorConfig": false,
+  "prettier.eslintIntegration": true, //不让prettier使用eslint的代码格式进行校验
+
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true, //格式化.vue中html
+  "vetur.format.defaultFormatter.js": "vscode-typescript",
+  "vetur.format.defaultFormatter.html": "js-beautify-html", //让vue中的js按编辑器自带的ts格式进行格式化
+  "vetur.format.defaultFormatterOptions": {
+    "js-beautify-html": {
+      "wrap_attributes": "force-aligned" //属性强制折行对齐
+    }
+  }
+}

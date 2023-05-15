@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../chunks/_rollupPluginBabelHelpers ../../chunks/tslib.es6 ../../core/JSONSupport ../../core/accessorSupport/decorators/property ../../core/accessorSupport/ensureType ../../core/arrayUtils ../../core/has ../../core/accessorSupport/decorators/subclass ../../geometry/Extent ./TileInfo".split(" "),function(e,c,b,f,p,q,r,h,k,l){var g;b=g=function(m){function d(a){a=n.call(this,a);a.fullExtent=null;a.id=null;a.tileInfo=null;return a}e._inherits(d,m);var n=e._createSuper(d);d.prototype.clone=
+function(){const a=new g;this.hasOwnProperty("fullExtent")&&(a.fullExtent=this.fullExtent&&this.fullExtent.clone());this.hasOwnProperty("id")&&(a.id=this.id);this.hasOwnProperty("tileInfo")&&(a.tileInfo=this.tileInfo&&this.tileInfo.clone());return a};return e._createClass(d)}(b.JSONSupport);c.__decorate([f.property({type:k,json:{read:{source:"fullExtent"}}})],b.prototype,"fullExtent",void 0);c.__decorate([f.property({type:String,json:{read:{source:"id"}}})],b.prototype,"id",void 0);c.__decorate([f.property({type:l,
+json:{read:{source:"tileInfo"}}})],b.prototype,"tileInfo",void 0);return b=g=c.__decorate([h.subclass("esri.layer.support.TileMatrixSet")],b)});

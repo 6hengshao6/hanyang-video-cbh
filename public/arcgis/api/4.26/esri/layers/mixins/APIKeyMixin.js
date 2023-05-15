@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("exports ../../chunks/_rollupPluginBabelHelpers ../../chunks/tslib.es6 ../../core/accessorSupport/decorators/property ../../core/accessorSupport/ensureType ../../core/arrayUtils ../../core/has ../../core/accessorSupport/decorators/subclass".split(" "),function(d,c,e,g,m,n,p,h){d.APIKeyMixin=a=>{a=function(k){function b(){return l.apply(this,arguments)}c._inherits(b,k);var l=c._createSuper(b);c._createClass(b,[{key:"apiKey",get:function(){return this._isOverridden("apiKey")?this._get("apiKey"):
+"portalItem"in this?this.portalItem?.apiKey:null},set:function(f){null!=f?this._override("apiKey",f):(this._clearOverride("apiKey"),this.clear("apiKey","user"))}}]);return b}(a);e.__decorate([g.property({type:String})],a.prototype,"apiKey",null);return a=e.__decorate([h.subclass("esri.layers.mixins.APIKeyMixin")],a)};Object.defineProperty(d,Symbol.toStringTag,{value:"Module"})});

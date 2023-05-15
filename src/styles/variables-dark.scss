@@ -1,0 +1,133 @@
+/* 自定义 */
+// color
+
+$color-primary-light: #5bcdc1;
+$color-primary-lighter: #70f8e9;
+
+// font
+$font-size-title: 16px;
+$font-size-primary: 14px;
+$font-size-small: 12px;
+
+// the :export directive is the magic sauce for webpack
+// :export {
+// }
+
+/* Element Chalk Variables */
+
+/* Color
+-------------------------- */
+/// color|1|Brand Color|0
+$--color-primary: #00ffff !default;
+
+/// color|1|Background Color|4
+$--color-white: transparent !default;
+
+/// color|1|Functional Color|1
+$--color-success: #05f502 !default;
+$--color-warning: #ffcc00 !default;
+$--color-danger: #ff2727 !default;
+$--color-info: #fff !default;
+
+/// color|1|Font Color|2
+$--color-text-primary: #fff !default;
+$--color-text-regular: #fff !default;
+$--color-text-secondary: #fff !default;
+$--color-text-placeholder: rgba(255, 255, 255, 0.7) !default;
+
+/// color|1|Border Color|3
+$--border-color-base: transparent !default;
+$--border-color-light: $--color-primary !default;
+$--border-color-lighter: #69ebde !default;
+$--border-color-extra-light: #69ebde !default;
+
+// link
+$--link-color: $--color-info !default;
+$--link-hover-color: $--color-text-regular !default;
+
+// font-size
+$--font-size-base: 16px !default;
+
+// Background
+$--background-color-base: #055695 !default;
+
+// border
+$--border-color-hover: transparent !default;
+
+// button
+$--button-primary-font-color: $--color-text-regular !default;
+
+// Box-shadow
+// $--box-shadow-base: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04) !default;
+// $--box-shadow-dark: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .12) !default;
+$--box-shadow-light: 0px 0px 30px rgba(11, 235, 235, 0.2) inset !default;
+
+// card
+$--card-border-color: transparent !default;
+$--card-border-radius: 0 !default;
+$--card-padding: 20px !default;
+
+/* Slider
+--------------------------*/
+$--slider-main-background-color: #00ffff !default;
+$--slider-runway-background-color: rgba(0, 255, 255, 0.3) !default;
+
+// table
+$--table-border-color: $--background-color-base !default;
+$--table-header-font-color: #00c6ff !default;
+$--table-current-row-background-color: $--background-color-base !default;
+$--table-header-background-color: $--background-color-base !default;
+
+/* Tree
+-------------------------- */
+/// color||Color|0
+$--tree-node-hover-background-color: transparent !default;
+/// color||Color|0
+$--tree-font-color: $--color-text-regular !default;
+/// color||Color|0
+$--tree-expand-icon-color: $--color-text-placeholder !default;
+
+// dropdown
+$--dropdown-menu-box-shadow: 0px 0px 14px rgba(16, 108, 222, 1) inset !default;
+$--dropdown-menuItem-hover-fill: transparent !default;
+$--dropdown-menuItem-hover-color: $--color-warning !default;
+
+// Radio
+$--radio-checked-font-color: $--color-text-regular !default;
+$--radio-checked-input-border-color: $--border-color-base !default;
+$--radio-checked-input-background-color: $--border-color-base !default;
+$--radio-checked-icon-color: $--border-color-base !default;
+
+// input
+$--input-focus-border: transparent !default;
+
+// checkbox
+$--checkbox-checked-font-color: $--color-primary !default;
+$--checkbox-input-border: 1px solid $--color-primary !default;
+$--checkbox-checked-background-color: transparent !default;
+$--checkbox-checked-icon-color: $--color-primary !default;
+
+// select
+$--select-multiple-input-color: $--color-text-regular !default;
+$--select-option-selected-font-color: $--color-text-regular !default;
+$--select-dropdown-empty-color: $--color-text-secondary !default;
+
+/* Dialog
+-------------------------- */
+$--dialog-background-color: #0d1a28 !default;
+$--dialog-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3) !default;
+$--dialog-content-font-size: $font-size-primary !default;
+
+// Popover
+$--popover-background-color: $--dialog-background-color !default;
+
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import '~element-ui/packages/theme-chalk/src/index';
+
+:export {
+  warning: $--color-warning;
+  danger: $--color-danger;
+  info: $--color-info;
+}

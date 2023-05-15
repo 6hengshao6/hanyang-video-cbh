@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define(["exports","../../TimeExtent","../../core/lang","../../core/maybe","../../support/timeUtils"],function(e,f,h,g,k){e.getFullTimeExtentFromWebDocument=async function(a,c){const {fullTimeExtent:b}=a.widgets?.timeSlider??{};return b?b:k.getTimeExtentFromLayers(a.allLayers,c)};e.getModeFromTimeSlider=function(a){const c=a.numThumbs??2;if(a=a.currentTimeExtent){const {start:b,end:d}=a;return g.isSome(b)&&g.isSome(d)&&b.getTime()===d.getTime()?"instant":2===c?"time-window":g.isNone(b)||0===b.getTime()?
+"cumulative-from-start":"cumulative-from-end"}return 2===c?"time-window":"cumulative-from-start"};e.getStopsFromTimeSlider=function(a){const {numStops:c,stopInterval:b,stops:d}=a;return d?{dates:h.clone(d)}:b?{interval:b.clone()}:{count:c??5}};e.getTimeExtentFromTimeSlider=function(a,c){a=a.currentTimeExtent;if(!a)return null;const {start:b,end:d}=a;a=b??d??null;switch(c){case "time-window":return new f({start:b,end:d});case "cumulative-from-start":return new f({start:null,end:a});case "cumulative-from-end":return new f({start:a,
+end:null});case "instant":return new f({start:a,end:a})}};Object.defineProperty(e,Symbol.toStringTag,{value:"Module"})});

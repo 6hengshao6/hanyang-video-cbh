@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../../chunks/_rollupPluginBabelHelpers ../../../chunks/tslib.es6 ../../../core/accessorSupport/decorators/property ../../../core/accessorSupport/ensureType ../../../core/arrayUtils ../../../core/has ../../../core/accessorSupport/decorators/enumeration ../../../core/accessorSupport/decorators/subclass ./PointSizeAlgorithm".split(" "),function(c,d,g,a,p,q,h,k,l){var e;a=e=function(m){function b(){var f=n.apply(this,arguments);f.type="splat";f.scaleFactor=1;return f}c._inherits(b,m);var n=
+c._createSuper(b);b.prototype.clone=function(){return new e({scaleFactor:this.scaleFactor})};return c._createClass(b)}(l);d.__decorate([h.enumeration({pointCloudSplatAlgorithm:"splat"})],a.prototype,"type",void 0);d.__decorate([g.property({type:Number,value:1,nonNullable:!0,json:{write:!0}})],a.prototype,"scaleFactor",void 0);return a=e=d.__decorate([k.subclass("esri.renderers.support.pointCloud.PointSizeSplatAlgorithm")],a)});

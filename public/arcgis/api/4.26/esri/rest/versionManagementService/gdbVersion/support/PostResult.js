@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../../../chunks/_rollupPluginBabelHelpers ../../../../chunks/tslib.es6 ../../../../core/JSONSupport ../../../../core/accessorSupport/decorators/property ../../../../core/accessorSupport/ensureType ../../../../core/arrayUtils ../../../../core/has ../../../../core/accessorSupport/decorators/subclass".split(" "),function(e,f,a,g,l,m,n,h){a=function(d){function b(c){c=k.call(this,c);c.moment=null;c.success=!1;return c}e._inherits(b,d);var k=e._createSuper(b);return e._createClass(b)}(a.JSONSupport);
+f.__decorate([g.property({type:Date,json:{type:Number,write:{writer:(d,b)=>{b.moment=d?d.getTime():null}}}})],a.prototype,"moment",void 0);f.__decorate([g.property({type:Boolean,json:{write:!0}})],a.prototype,"success",void 0);return a=f.__decorate([h.subclass("esri.rest.versionManagementService.gdbVersion.support.PostResult")],a)});

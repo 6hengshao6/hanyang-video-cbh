@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("exports ../../chunks/_rollupPluginBabelHelpers ../../chunks/tslib.es6 ../../core/Accessor ../../core/accessorSupport/decorators/property ../../core/accessorSupport/ensureType ../../core/arrayUtils ../../core/has ../../core/accessorSupport/decorators/subclass".split(" "),function(a,c,d,g,f,m,n,p,h){a.CreateFeaturesWorkflowData=function(k){function e(b){b=l.call(this,b);b.creationInfo=null;b.viewModel=null;return b}c._inherits(e,k);var l=c._createSuper(e);return c._createClass(e)}(g);d.__decorate([f.property()],
+a.CreateFeaturesWorkflowData.prototype,"creationInfo",void 0);d.__decorate([f.property()],a.CreateFeaturesWorkflowData.prototype,"viewModel",void 0);a.CreateFeaturesWorkflowData=d.__decorate([h.subclass("esri.widgets.Editor.CreateFeaturesWorkflowData")],a.CreateFeaturesWorkflowData);Object.defineProperty(a,Symbol.toStringTag,{value:"Module"})});

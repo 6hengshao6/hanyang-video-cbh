@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define(["exports","../../core/asyncUtils","../../core/maybe","../../core/promiseUtils","../../core/reactiveUtils"],function(f,l,g,m,h){function k(a){const {view:c,tool:b}=a;g.isNone(b)||(c.tools.remove(b),a.tool=null)}f.activateAnalysisViewTool=function(a,c){a.interactive=!0;const {tool:b,view:d}=a;d.activeTool=b;let e=m.onAbort(c,()=>{d.activeTool===b&&(d.activeTool=null)});return l.createTask(async n=>{await h.whenOnce(()=>g.isNone(b)||!b.active,n);e=g.removeMaybe(e)},c)};f.connectAnalysisViewToTool=
+function(a,c){return h.watch(()=>a.interactive,()=>{if(a.interactive){k(a);const {view:b,analysis:d}=a,e=new c({view:b,analysis:d,analysisViewData:a});a.tool=e;b.tools.add(e)}else k(a)},h.syncAndInitial)};f.removeAnalysisViewTool=k;Object.defineProperty(f,Symbol.toStringTag,{value:"Module"})});

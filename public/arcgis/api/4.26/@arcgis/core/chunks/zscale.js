@@ -1,0 +1,5 @@
+/*
+All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+*/
+import{a as n}from"./maybe.js";import{f as t,j as e}from"./unitUtils.js";function o(o,r,i){if(n(r)||n(i)||i.vcsWkid||t(r,i))return null;const s=e(r)/e(i);if(1===s)return null;switch(o){case"point":case"esriGeometryPoint":return n=>{return e=s,void((t=n)&&null!=t.z&&(t.z*=e));var t,e};case"polyline":case"esriGeometryPolyline":return n=>function(n,t){if(n)for(const e of n.paths)for(const n of e)n.length>2&&(n[2]*=t)}(n,s);case"polygon":case"esriGeometryPolygon":return n=>function(n,t){if(n)for(const e of n.rings)for(const n of e)n.length>2&&(n[2]*=t)}(n,s);case"multipoint":case"esriGeometryMultipoint":return n=>function(n,t){if(n)for(const e of n.points)e.length>2&&(e[2]*=t)}(n,s);case"extent":case"esriGeometryExtent":return n=>{return e=s,void((t=n)&&null!=t.zmin&&null!=t.zmax&&(t.zmin*=e,t.zmax*=e));var t,e};default:return null}}export{o as g};

@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define(["exports","../../core/maybe","../../core/string"],function(e,k,h){function l(a,c){c=c.map((d,b)=>{let g=a[b];d.domain&&"coded-value"===d.domain.type&&(b=d.domain.codedValues.find(f=>f.code===g),b?.name&&(g=b.name));return[d.name,g]});return Object.fromEntries(c)}function m(a,c){return h.replace(h.replace(a,d=>`{${d.toLowerCase()}}`),Object.fromEntries(Object.entries(c).map(([d,b])=>[d.toLowerCase(),b])))}const n={typeFieldName:null,types:[]};e.getComputedAttributes=l;e.getNormalizedFeatureTypeInfo=
+a=>a?"subtype-sublayer"===a.type?{typeFieldName:a.parent?.subtypeField,types:a.parent?.subtypes??[]}:"types"in a&&a.types?{typeFieldName:a.typeIdField,types:a.types.map(({id:c,name:d,domains:b})=>({code:c,name:d,domains:b}))}:n:n;e.isFieldElementWithInputType=(a,c)=>k.isSome(a)&&a.input?.type===c;e.isGroupField=a=>!!a.inputFields;e.parseFormTemplateString=function(a,c,d){var b=Object.keys(c).filter(f=>h.templateHasKey(a,f));const g=b.map(f=>c[f]);b=b.map(f=>d.get(f)).filter(k.isSome);return m(a,l(g,
+b))};e.substituteFieldTemplatesInString=m;Object.defineProperty(e,Symbol.toStringTag,{value:"Module"})});

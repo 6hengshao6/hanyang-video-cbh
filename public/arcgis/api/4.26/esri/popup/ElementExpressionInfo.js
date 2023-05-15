@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../chunks/_rollupPluginBabelHelpers ../chunks/tslib.es6 ../core/JSONSupport ../core/accessorSupport/decorators/property ../core/accessorSupport/ensureType ../core/arrayUtils ../core/has ../core/accessorSupport/decorators/subclass".split(" "),function(e,c,a,f,m,n,p,h){var g;a=g=function(k){function d(b){b=l.call(this,b);b.title=null;b.expression=null;b.returnType="dictionary";return b}e._inherits(d,k);var l=e._createSuper(d);d.prototype.clone=function(){return new g({title:this.title,expression:this.expression})};
+return e._createClass(d)}(a.JSONSupport);c.__decorate([f.property({type:String,json:{write:!0}})],a.prototype,"title",void 0);c.__decorate([f.property({type:String,json:{write:!0}})],a.prototype,"expression",void 0);c.__decorate([f.property({type:["dictionary"],readOnly:!0,json:{read:!1,write:!0}})],a.prototype,"returnType",void 0);return a=g=c.__decorate([h.subclass("esri.popup.ElementExpressionInfo")],a)});

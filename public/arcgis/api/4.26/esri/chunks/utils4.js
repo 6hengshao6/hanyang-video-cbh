@@ -1,0 +1,4 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define(["exports"],function(d){function c(a){return a.assignedSlot?a.assignedSlot:a.parentNode instanceof ShadowRoot?a.parentNode.host:a.parentNode}d.offsetParent=function(a){for(var b=a;b;b=c(b))if(b instanceof Element&&"none"===getComputedStyle(b).display)return null;for(a=c(a);a;a=c(a))if(a instanceof Element&&(b=getComputedStyle(a),"contents"!==b.display&&("static"!==b.position||"none"!==b.filter||"BODY"===a.tagName)))return a;return null};Object.defineProperty(d,Symbol.toStringTag,{value:"Module"})});

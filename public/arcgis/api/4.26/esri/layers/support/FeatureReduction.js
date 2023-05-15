@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("exports ../../chunks/_rollupPluginBabelHelpers ../../chunks/tslib.es6 ../../core/JSONSupport ../../core/accessorSupport/decorators/property ../../core/accessorSupport/ensureType ../../core/arrayUtils ../../core/has ../../core/accessorSupport/decorators/subclass".split(" "),function(a,b,d,f,g,m,n,p,h){a.FeatureReduction=function(k){function c(){var e=l.apply(this,arguments);e.type=null;return e}b._inherits(c,k);var l=b._createSuper(c);return b._createClass(c)}(f.JSONSupport);d.__decorate([g.property({type:["selection",
+"cluster","binning"],readOnly:!0,json:{read:!1,write:!0}})],a.FeatureReduction.prototype,"type",void 0);a.FeatureReduction=d.__decorate([h.subclass("esri.layers.support.FeatureReduction")],a.FeatureReduction);Object.defineProperty(a,Symbol.toStringTag,{value:"Module"})});

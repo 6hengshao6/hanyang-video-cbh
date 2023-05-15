@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../chunks/_rollupPluginBabelHelpers ../../chunks/tslib.es6 ../../core/JSONSupport ../../core/lang ../../core/accessorSupport/decorators/property ../../core/accessorSupport/ensureType ../../core/accessorSupport/decorators/subclass".split(" "),function(g,c,a,k,e,d,l){var h;a=h=function(m){function f(b){b=n.call(this,b);b.variableName=null;b.dimensionName=null;b.values=[];b.isSlice=!1;return b}g._inherits(f,m);var n=g._createSuper(f);f.prototype.clone=function(){return new h({variableName:this.variableName,
+dimensionName:this.dimensionName,values:k.clone(this.values),isSlice:this.isSlice})};return g._createClass(f)}(a.JSONSupport);c.__decorate([e.property({type:String,json:{write:!0}})],a.prototype,"variableName",void 0);c.__decorate([e.property({type:String,json:{write:!0}})],a.prototype,"dimensionName",void 0);c.__decorate([e.property({type:d.types.array(d.types.oneOf([d.types.native(Number),d.types.array(d.types.native(Number))])),json:{write:!0}})],a.prototype,"values",void 0);c.__decorate([e.property({type:Boolean,
+json:{write:!0}})],a.prototype,"isSlice",void 0);return a=h=c.__decorate([l.subclass("esri.layers.support.DimensionalDefinition")],a)});

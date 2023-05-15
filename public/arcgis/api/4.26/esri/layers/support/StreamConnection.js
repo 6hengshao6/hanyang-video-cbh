@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../chunks/_rollupPluginBabelHelpers ../../chunks/tslib.es6 ../../core/Error ../../core/Evented ../../core/accessorSupport/decorators/property ../../core/accessorSupport/ensureType ../../core/arrayUtils ../../core/has ../../core/accessorSupport/decorators/subclass".split(" "),function(d,f,g,a,h,m,n,p,k){a=function(b){function c(){return l.apply(this,arguments)}d._inherits(c,b);var l=d._createSuper(c);b=c.prototype;b.destroy=function(){this.emit("destroy")};b.onFeature=function(e){this.emit("data-received",
+e)};b.onMessage=function(e){this.emit("message-received",e)};d._createClass(c,[{key:"connectionError",get:function(){return this.errorString?new g("stream-connection",this.errorString):null}}]);return c}(a.EventedAccessor);f.__decorate([h.property({readOnly:!0})],a.prototype,"connectionError",null);return a=f.__decorate([k.subclass("esri.layers.support.StreamConnection")],a)});

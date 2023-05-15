@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("exports ../../chunks/_rollupPluginBabelHelpers ../../chunks/tslib.es6 ../../core/Identifiable ../../core/accessorSupport/decorators/property ../../core/accessorSupport/ensureType ../../core/arrayUtils ../../core/has ../../core/accessorSupport/decorators/subclass".split(" "),function(g,d,b,h,c,n,p,q,k){g.GraphicsView=a=>{a=function(l){function e(){var f=m.apply(this,arguments);f.graphics=null;f.renderer=null;return f}d._inherits(e,l);var m=d._createSuper(e);return d._createClass(e)}(h.IdentifiableMixin(a));
+b.__decorate([c.property()],a.prototype,"graphics",void 0);b.__decorate([c.property()],a.prototype,"renderer",void 0);b.__decorate([c.property()],a.prototype,"updating",void 0);b.__decorate([c.property()],a.prototype,"view",void 0);return a=b.__decorate([k.subclass("esri.views.layers.GraphicsView")],a)};Object.defineProperty(g,Symbol.toStringTag,{value:"Module"})});

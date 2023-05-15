@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../../chunks/_rollupPluginBabelHelpers ../../../chunks/tslib.es6 ../../../core/JSONSupport ../../../core/screenUtils ../../../core/accessorSupport/decorators/property ../../../core/accessorSupport/ensureType ../../../core/arrayUtils ../../../core/has ../../../core/accessorSupport/decorators/subclass".split(" "),function(e,c,a,h,f,n,p,q,k){var g;a=g=function(l){function d(b){b=m.call(this,b);b.label=null;b.size=null;b.value=null;return b}e._inherits(d,l);var m=e._createSuper(d);d.prototype.clone=
+function(){return new g({label:this.label,size:this.size,value:this.value})};return e._createClass(d)}(a.JSONSupport);c.__decorate([f.property({type:String,json:{write:!0}})],a.prototype,"label",void 0);c.__decorate([f.property({type:Number,cast:h.toPt,json:{write:!0}})],a.prototype,"size",void 0);c.__decorate([f.property({type:Number,json:{write:!0}})],a.prototype,"value",void 0);return a=g=c.__decorate([k.subclass("esri.renderers.visualVariables.support.SizeStop")],a)});

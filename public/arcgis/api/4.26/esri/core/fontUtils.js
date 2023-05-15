@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define(["exports","../config"],function(d,k){function e(a){if(!a)return"arial-unicode-ms";a=a.toLowerCase().split(" ").join("-");switch(a){case "serif":return"noto-serif";case "sans-serif":return"arial-unicode-ms";case "monospace":return"ubuntu-mono";case "fantasy":return"cabin-sketch";case "cursive":return"redressed";default:return a}}function f(a){a:{if(a.weight)switch(a.weight.toLowerCase()){case "bold":case "bolder":var b="-bold";break a}b=""}a:{if(a.style)switch(a.style.toLowerCase()){case "italic":case "oblique":var c=
+"-italic";break a}c=""}b+=c;return e(a.family)+(0<b.length?b:"-regular")}const g=new Map;d.getFontFamily=e;d.getFullyQualifiedFontName=f;d.loadFont=async function(a){const b=f(a);let c=g.get(b);if(c)return c;a=new FontFace(a.family,`url('${k.fontsUrl}/woff2/${b}.${"woff2"}') format('${"woff2"}')`);const h=document.fonts;if(h.has(a)&&"loading"===a.status)return a.loaded;c=a.load();g.set(b,c);h.add(a);return c};Object.defineProperty(d,Symbol.toStringTag,{value:"Module"})});

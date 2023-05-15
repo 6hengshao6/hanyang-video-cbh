@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../chunks/_rollupPluginBabelHelpers ../chunks/tslib.es6 ../core/Collection ../core/lang ../core/accessorSupport/decorators/property ../core/accessorSupport/ensureType ../core/accessorSupport/decorators/enumeration ../core/accessorSupport/decorators/subclass ./FillSymbol3DLayer ./Symbol3D".split(" "),function(e,f,b,g,l,t,m,n,h,p){var d;const k=b.ofType({base:null,key:"type",typeMap:{fill:h}});b=d=function(q){function c(a){a=r.call(this,a);a.symbolLayers=new k;a.type="mesh-3d";return a}e._inherits(c,
+q);var r=e._createSuper(c);c.prototype.clone=function(){return new d({styleOrigin:g.clone(this.styleOrigin),symbolLayers:g.clone(this.symbolLayers),thumbnail:g.clone(this.thumbnail)})};c.fromSimpleFillSymbol=function(a){return new d({symbolLayers:[h.fromSimpleFillSymbol(a)]})};return e._createClass(c)}(p);f.__decorate([l.property({type:k})],b.prototype,"symbolLayers",void 0);f.__decorate([m.enumeration({MeshSymbol3D:"mesh-3d"},{readOnly:!0})],b.prototype,"type",void 0);return b=d=f.__decorate([n.subclass("esri.symbols.MeshSymbol3D")],
+b)});

@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define(["exports","../../../core/maybe","../../../layers/support/fieldUtils"],function(g,h,k){g.getFetchPopupTemplate=function(a,c){return a.popupTemplate?a.popupTemplate:h.isSome(c)&&c.defaultPopupTemplateEnabled&&h.isSome(a.defaultPopupTemplate)?a.defaultPopupTemplate:null};g.getRequiredFields=async function(a,c=a.popupTemplate){if(h.isNone(c))return[];const l=await c.getRequiredFields(a.fieldsIndex);({lastEditInfoEnabled:c}=c);const {objectIdField:e,typeIdField:m,globalIdField:f,relationships:n}=
+a;if(l.includes("*"))return["*"];c=c?await k.getFeatureEditFields(a):[];const b=k.fixFields(a.fieldsIndex,[...l,...c]);m&&b.push(m);b&&e&&a.fieldsIndex?.has(e)&&!b.includes(e)&&b.push(e);b&&f&&a.fieldsIndex?.has(f)&&!b.includes(f)&&b.push(f);n&&n.forEach(d=>{({keyField:d}=d);b&&d&&a.fieldsIndex?.has(d)&&!b.includes(d)&&b.push(d)});return b};Object.defineProperty(g,Symbol.toStringTag,{value:"Module"})});

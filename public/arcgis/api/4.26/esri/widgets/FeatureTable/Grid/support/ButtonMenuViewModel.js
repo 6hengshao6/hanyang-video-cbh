@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../../../chunks/_rollupPluginBabelHelpers ../../../../chunks/tslib.es6 ../../../../core/Accessor ../../../../core/accessorSupport/decorators/property ../../../../core/accessorSupport/decorators/cast ../../../../core/arrayUtils ../../../../core/has ../../../../core/accessorSupport/decorators/subclass ./ButtonMenuItem".split(" "),function(e,c,b,g,k,p,q,l,h){b=function(m){function d(a){a=n.call(this,a);a.items=null;a.open=!1;return a}e._inherits(d,m);var n=e._createSuper(d);d.prototype.castItems=
+function(a){return a?a.map(f=>f instanceof h?f:new h(f)):null};return e._createClass(d)}(b);c.__decorate([g.property()],b.prototype,"items",void 0);c.__decorate([k.cast("items")],b.prototype,"castItems",null);c.__decorate([g.property()],b.prototype,"open",void 0);return b=c.__decorate([l.subclass("esri.widgets.FeatureTable.Grid.support.ButtonMenuViewModel")],b)});

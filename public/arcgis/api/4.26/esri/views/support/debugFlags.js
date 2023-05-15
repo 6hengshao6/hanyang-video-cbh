@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../chunks/_rollupPluginBabelHelpers ../../chunks/tslib.es6 ../../core/Accessor ../../core/accessorSupport/decorators/property ../../core/accessorSupport/ensureType ../../core/arrayUtils ../../core/has ../../core/accessorSupport/decorators/subclass".split(" "),function(b,c,a,f,l,m,n,g){a=function(h){function d(){var e=k.apply(this,arguments);e.SCHEDULER_LOG_SLOW_TASKS=!1;e.FEATURE_SERVICE_SNAPPING_SOURCE_TILE_TREE_SHOW_TILES=!1;return e}b._inherits(d,h);var k=b._createSuper(d);return b._createClass(d)}(a);
+c.__decorate([f.property()],a.prototype,"SCHEDULER_LOG_SLOW_TASKS",void 0);c.__decorate([f.property()],a.prototype,"FEATURE_SERVICE_SNAPPING_SOURCE_TILE_TREE_SHOW_TILES",void 0);a=c.__decorate([g.subclass("esri.views.support.DebugFlags")],a);return new a});

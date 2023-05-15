@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../../../chunks/_rollupPluginBabelHelpers ../../../../chunks/tslib.es6 ../../../../core/Logger ../../../../core/accessorSupport/ensureType ../../../../core/arrayUtils ../../../../core/has ../../../../core/Error ../../../../core/accessorSupport/decorators/subclass ../../engine/webgl/enums ./BaseGraphicContainer ../../../webgl/enums".split(" "),function(b,g,f,q,r,t,u,h,k,l,m){f=function(e){function c(){return n.apply(this,arguments)}b._inherits(c,e);var n=b._createSuper(c);e=c.prototype;
+e.doRender=function(a){a.drawPhase===k.WGLDrawPhase.HIGHLIGHT&&b._get(b._getPrototypeOf(c.prototype),"doRender",this).call(this,a)};e.renderChildren=function(a){this.attributeView.update();if(this.children.some(p=>p.hasData)){this.attributeView.bindTextures(a.context);b._get(b._getPrototypeOf(c.prototype),"renderChildren",this).call(this,a);var {painter:d}=a;d=d.effects.highlight;d.bind(a);a.context.setColorMask(!0,!0,!0,!0);a.context.clear(m.ClearBufferBit.COLOR_BUFFER_BIT);this._renderChildren(a,
+d.defines.concat(["highlightAll"]));d.draw(a);d.unbind()}};return b._createClass(c)}(l);return f=g.__decorate([h.subclass("esri.views.2d.layers.support.HighlightGraphicContainer")],f)});

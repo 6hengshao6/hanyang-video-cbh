@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../chunks/_rollupPluginBabelHelpers ../../chunks/tslib.es6 ../../core/Clonable ../../core/JSONSupport ../../core/Logger ../../core/accessorSupport/ensureType ../../core/arrayUtils ../../core/has ../../core/Error ../../core/accessorSupport/decorators/enumeration ../../core/accessorSupport/decorators/subclass".split(" "),function(c,e,a,f,m,n,p,q,r,g,h){a=function(k){function d(b){b=l.call(this,b);b.type="fence";return b}c._inherits(d,k);var l=c._createSuper(d);return c._createClass(d)}(a.ClonableMixin(f.JSONSupport));
+e.__decorate([g.enumeration({fence:"fence"},{readOnly:!0})],a.prototype,"type",void 0);return a=e.__decorate([h.subclass("esri.webdoc.geotriggersInfo.Geotrigger")],a)});

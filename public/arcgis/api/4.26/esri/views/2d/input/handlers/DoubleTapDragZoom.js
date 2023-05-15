@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define(["exports","../../../../chunks/_rollupPluginBabelHelpers","../../../../core/has","../../../input/InputHandler"],function(h,g,k,l){k=function(m){function f(b,a,c){var d=n.call(this,!0);d.view=b;d.pointerType=a;d.registerIncoming("double-tap-drag",c,e=>d._handleDoubleTapDrag(e));return d}g._inherits(f,m);var n=g._createSuper(f);f.prototype._handleDoubleTapDrag=function(b){var {data:a}=b,{pointerType:c}=a;if(c===this.pointerType){b.stopPropagation();var {action:d,delta:e}=a;({view:a}=this);({mapViewNavigation:b}=
+a);switch(d){case "begin":({scale:a}=a);this._currentScale=this._startScale=a;this._previousDelta=e;b.begin();break;case "update":if(this._previousDelta.y===e.y)break;this._previousDelta=e;a=this._startScale*1.015**e.y;b.setViewpointImmediate(a/this._currentScale);this._currentScale=a;break;case "end":({constraints:c}=a);const {effectiveLODs:p,snapToZoom:q}=c;q&&p?(a=c.snapScale(this._currentScale),a=(0<e.y?Math.max(a,c.snapToPreviousScale(this._startScale)):Math.min(a,c.snapToNextScale(this._startScale)))/
+this._currentScale,b.zoom(a)):b.end()}}};return g._createClass(f)}(l.InputHandler);h.DoubleTapDragZoom=k;Object.defineProperty(h,Symbol.toStringTag,{value:"Module"})});

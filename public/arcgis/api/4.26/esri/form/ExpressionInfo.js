@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../chunks/_rollupPluginBabelHelpers ../chunks/tslib.es6 ../core/JSONSupport ../core/accessorSupport/decorators/property ../core/accessorSupport/ensureType ../core/arrayUtils ../core/has ../core/accessorSupport/decorators/subclass".split(" "),function(f,c,a,d,m,n,p,h){var g;a=g=function(k){function e(b){b=l.call(this,b);b.expression=null;b.name=null;b.returnType="boolean";b.title=null;return b}f._inherits(e,k);var l=f._createSuper(e);e.prototype.clone=function(){return new g({name:this.name,
+title:this.title,expression:this.expression,returnType:this.returnType})};return f._createClass(e)}(a.JSONSupport);c.__decorate([d.property({type:String,json:{write:!0}})],a.prototype,"expression",void 0);c.__decorate([d.property({type:String,json:{write:!0}})],a.prototype,"name",void 0);c.__decorate([d.property({type:["boolean","date","number","string"],json:{write:!0}})],a.prototype,"returnType",void 0);c.__decorate([d.property({type:String,json:{write:!0}})],a.prototype,"title",void 0);return a=
+g=c.__decorate([h.subclass("esri.form.ExpressionInfo")],a)});

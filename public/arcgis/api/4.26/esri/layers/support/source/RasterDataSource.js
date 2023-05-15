@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("exports ../../../chunks/_rollupPluginBabelHelpers ../../../chunks/tslib.es6 ../../../core/JSONSupport ../../../core/accessorSupport/decorators/property ../../../core/accessorSupport/ensureType ../../../core/arrayUtils ../../../core/has ../../../core/accessorSupport/decorators/enumeration ../../../core/accessorSupport/decorators/subclass".split(" "),function(a,e,c,h,g,q,r,t,k,l){var f;a.RasterDataSource=f=function(m){function d(b){b=n.call(this,b);b.type="raster";return b}e._inherits(d,m);
+var n=e._createSuper(d);d.prototype.clone=function(){const {workspaceId:b,dataSourceName:p}=this;return new f({workspaceId:b,dataSourceName:p})};return e._createClass(d)}(h.JSONSupport);c.__decorate([k.enumeration({raster:"raster"})],a.RasterDataSource.prototype,"type",void 0);c.__decorate([g.property({type:String,json:{write:!0}})],a.RasterDataSource.prototype,"dataSourceName",void 0);c.__decorate([g.property({type:String,json:{write:!0}})],a.RasterDataSource.prototype,"workspaceId",void 0);a.RasterDataSource=
+f=c.__decorate([l.subclass("esri.layers.support.source.RasterDataSource")],a.RasterDataSource);Object.defineProperty(a,Symbol.toStringTag,{value:"Module"})});

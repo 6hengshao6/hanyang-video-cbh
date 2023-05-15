@@ -1,0 +1,4 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define(["exports","../../../../chunks/_rollupPluginBabelHelpers","../../../../chunks/vec3","./SnappingHint"],function(f,d,g,e){e=function(h){function a(b,c,k){c=l.call(this,c,k);c.point=b;return c}d._inherits(a,h);var l=d._createSuper(a);a.prototype.equals=function(b){return b instanceof a?g.exactEquals(this.point,b.point):!1};return d._createClass(a)}(e.SnappingHint);f.PointSnappingHint=e;Object.defineProperty(f,Symbol.toStringTag,{value:"Module"})});

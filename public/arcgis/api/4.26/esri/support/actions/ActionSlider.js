@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../chunks/_rollupPluginBabelHelpers ../../chunks/tslib.es6 ../../core/accessorSupport/decorators/property ../../core/accessorSupport/ensureType ../../core/arrayUtils ../../core/has ../../core/accessorSupport/decorators/subclass ./ActionBase".split(" "),function(f,c,d,b,n,p,h,k){var g;b=g=function(l){function e(a){a=m.call(this,a);a.displayValueEnabled=!1;a.max=1;a.min=0;a.step=.1;a.type="slider";a.value=null;return a}f._inherits(e,l);var m=f._createSuper(e);e.prototype.clone=function(){return new g({active:this.active,
+className:this.className,disabled:this.disabled,id:this.id,indicator:this.indicator,title:this.title,visible:this.visible,displayValueEnabled:this.displayValueEnabled,max:this.max,min:this.min,step:this.step,value:this.value})};return f._createClass(e)}(k);c.__decorate([d.property()],b.prototype,"displayValueEnabled",void 0);c.__decorate([d.property()],b.prototype,"max",void 0);c.__decorate([d.property()],b.prototype,"min",void 0);c.__decorate([d.property()],b.prototype,"step",void 0);c.__decorate([d.property()],
+b.prototype,"value",void 0);return b=g=c.__decorate([h.subclass("esri.support.Action.ActionSlider")],b)});

@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define(["exports","../core/has"],function(a,b){const c=()=>b.cache["enable-feature:direct-3d-object-feature-layer-display"]=!0,d=()=>b.cache["enable-i3s-patching"]=!0;a.direct3DObjectFeatureLayerDisplayEnabled=()=>!!b("enable-feature:direct-3d-object-feature-layer-display");a.enableDirect3DObjectFeatureLayerDisplay=c;a.enableI3SPatching=d;a.enableSceneLayerEditing=()=>{b.cache["enable-feature:SceneLayer-editing"]=!0;c();d()};a.enableWebStyleForceWOSR=()=>!!b("enable-feature:force-wosr");a.i3sPatchingEnabled=
+()=>!!b("enable-i3s-patching");a.sceneLayerEditingEnabled=()=>!!b("enable-feature:SceneLayer-editing");Object.defineProperty(a,Symbol.toStringTag,{value:"Module"})});

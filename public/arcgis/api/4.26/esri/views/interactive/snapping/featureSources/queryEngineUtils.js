@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("exports ../../../../core/maybe ../../../../chunks/vec3f64 ../SnappingPoint ../candidates/DrapedEdgeSnappingCandidate ../candidates/EdgeSnappingCandidate ../candidates/VertexSnappingCandidate".split(" "),function(d,f,g,h,k,l,m){function b({x:a,y:c,z:e}){return h.asSnappingPoint(g.fromValues(a,c,e??0))}d.convertSnappingCandidate=function(a,c){switch(a.type){case "edge":return a.draped?new k.DrapedEdgeSnappingCandidate({edgeStart:b(a.start),edgeEnd:b(a.end),targetPoint:b(a.target),objectId:a.objectId,
+getGroundElevation:c}):new l.EdgeSnappingCandidate({edgeStart:b(a.start),edgeEnd:b(a.end),targetPoint:b(a.target),objectId:a.objectId,isDraped:!1});case "vertex":return new m.VertexSnappingCandidate({targetPoint:b(a.target),objectId:a.objectId,isDraped:!1})}};d.makeGetGroundElevation=function(a){return f.isSome(a)&&"3d"===a.type?(c,e,n)=>a.elevationProvider.getElevation(c,e,n??0,a.spatialReference,"ground"):()=>null};Object.defineProperty(d,Symbol.toStringTag,{value:"Module"})});

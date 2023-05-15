@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("exports ../../../../chunks/_rollupPluginBabelHelpers ../../../../core/has ../../../../core/Logger ../../../../chunks/vec3 ../SnappingDomain ./SnappingHint".split(" "),function(f,d,g,r,e,h,k){g=function(l){function c(a,m,n,b,p=h.SnappingDomain.ALL){b=q.call(this,b,p);b.previousVertex=a;b.centerVertex=m;b.nextVertex=n;return b}d._inherits(c,l);var q=d._createSuper(c);c.prototype.equals=function(a){return a instanceof c?e.exactEquals(this.previousVertex,a.previousVertex)&&e.exactEquals(this.centerVertex,
+a.centerVertex)&&e.exactEquals(this.nextVertex,a.nextVertex):!1};return d._createClass(c)}(k.SnappingHint);f.RightAngleSnappingHint=g;Object.defineProperty(f,Symbol.toStringTag,{value:"Module"})});

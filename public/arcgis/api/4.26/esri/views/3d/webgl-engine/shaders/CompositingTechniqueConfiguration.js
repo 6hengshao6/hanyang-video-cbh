@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define(["exports","../../../../chunks/_rollupPluginBabelHelpers","../../../../chunks/tslib.es6","../core/shaderTechnique/ShaderTechniqueConfiguration"],function(b,c,h,d){b.AlphaMode=void 0;(function(a){a[a.None=0]="None";a[a.Alpha=1]="Alpha";a[a.PremultipliedAlpha=2]="PremultipliedAlpha";a[a.COUNT=3]="COUNT"})(b.AlphaMode||(b.AlphaMode={}));let g=function(a){function e(){var f=k.apply(this,arguments);f.alphaMode=b.AlphaMode.None;f.hasOpacityFactor=!1;return f}c._inherits(e,a);var k=c._createSuper(e);
+return c._createClass(e)}(d.ShaderTechniqueConfiguration);h.__decorate([d.parameter({count:b.AlphaMode.COUNT})],g.prototype,"alphaMode",void 0);h.__decorate([d.parameter()],g.prototype,"hasOpacityFactor",void 0);b.CompositingTechniqueConfiguration=g;Object.defineProperty(b,Symbol.toStringTag,{value:"Module"})});

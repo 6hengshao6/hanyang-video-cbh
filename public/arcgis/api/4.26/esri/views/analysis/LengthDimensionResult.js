@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../chunks/_rollupPluginBabelHelpers ../../chunks/tslib.es6 ../../core/Accessor ../../core/accessorSupport/decorators/property ../../core/accessorSupport/ensureType ../../core/arrayUtils ../../core/has ../../core/accessorSupport/decorators/subclass".split(" "),function(c,d,a,f,l,m,n,g){a=function(h){function e(b){b=k.call(this,b);b.dimension=null;b.length=null;return b}c._inherits(e,h);var k=c._createSuper(e);return c._createClass(e)}(a);d.__decorate([f.property({constructOnly:!0,nonNullable:!0})],
+a.prototype,"dimension",void 0);d.__decorate([f.property()],a.prototype,"length",void 0);return a=d.__decorate([g.subclass("esri.views.3d.analysis.LengthDimensionResult")],a)});

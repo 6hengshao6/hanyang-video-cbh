@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("require exports ../../../../chunks/_rollupPluginBabelHelpers ../core/shaderTechnique/ReloadableShaderModule ../core/shaderTechnique/ShaderTechnique ../lib/Program ../lib/VertexAttribute ../../../../chunks/LaserlinePath.glsl ../../../webgl/enums ../../../webgl/renderState".split(" "),function(l,e,f,m,c,n,d,p,h,g){c=function(b){function a(){return q.apply(this,arguments)}f._inherits(a,b);var q=f._createSuper(a);b=a.prototype;b.initializeProgram=function(r){return new n.Program(r.rctx,a.shader.get().build(this.configuration),
+k)};b.initializePipeline=function(){return g.makePipelineState({blending:g.simpleBlendingParams(h.BlendFactor.ONE,h.BlendFactor.ONE_MINUS_SRC_ALPHA),colorWrite:g.defaultColorWriteParams})};return f._createClass(a)}(c.ShaderTechnique);c.shader=new m.ReloadableShaderModule(p.LaserlinePath,()=>new Promise((b,a)=>l(["./LaserlinePath.glsl"],b,a)));const k=new Map([[d.VertexAttribute.START,0],[d.VertexAttribute.END,1],[d.VertexAttribute.UP,2],[d.VertexAttribute.EXTRUDE,3]]);e.LaserlinePathTechnique=c;e.attributeLocations=
+k;Object.defineProperty(e,Symbol.toStringTag,{value:"Module"})});

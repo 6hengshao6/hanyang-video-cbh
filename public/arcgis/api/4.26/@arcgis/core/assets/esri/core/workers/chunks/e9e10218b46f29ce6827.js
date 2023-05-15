@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkRemoteClient=self.webpackChunkRemoteClient||[]).push([[5777],{5777:(e,n,i)=>{i.d(n,{c:()=>d});var d="undefined"!=typeof globalThis?globalThis:"undefined"!=typeof window?window:void 0!==i.g?i.g:"undefined"!=typeof self?self:{}}}]);

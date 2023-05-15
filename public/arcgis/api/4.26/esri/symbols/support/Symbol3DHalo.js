@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("exports ../../chunks/_rollupPluginBabelHelpers ../../chunks/tslib.es6 ../../Color ../../core/JSONSupport ../../core/lang ../../core/accessorSupport/decorators/property ../../core/accessorSupport/ensureType ../../core/accessorSupport/decorators/subclass ./materialUtils".split(" "),function(a,d,e,k,l,m,g,r,n,h){var f;a.Symbol3DHalo=f=function(p){function c(){var b=q.apply(this,arguments);b.color=new k([0,0,0,1]);b.size=0;return b}d._inherits(c,p);var q=d._createSuper(c);c.prototype.clone=function(){const b=
+{color:m.clone(this.color),size:this.size};return new f(b)};return d._createClass(c)}(l.JSONSupport);e.__decorate([g.property(h.colorAndTransparencyProperty)],a.Symbol3DHalo.prototype,"color",void 0);e.__decorate([g.property(h.screenSizeProperty)],a.Symbol3DHalo.prototype,"size",void 0);a.Symbol3DHalo=f=e.__decorate([n.subclass("esri.symbols.support.Symbol3DHalo")],a.Symbol3DHalo);Object.defineProperty(a,Symbol.toStringTag,{value:"Module"})});

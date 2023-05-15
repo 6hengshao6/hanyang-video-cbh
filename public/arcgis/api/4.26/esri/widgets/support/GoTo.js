@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("exports ../../chunks/_rollupPluginBabelHelpers ../../chunks/tslib.es6 ../../core/maybe ../../core/accessorSupport/decorators/property ../../core/accessorSupport/ensureType ../../core/arrayUtils ../../core/has ../../core/accessorSupport/decorators/subclass".split(" "),function(g,d,e,k,h,p,q,r,l){g.GoToMixin=b=>{b=function(m){function c(...a){a=n.call(this,...a);a.goToOverride=null;a.view=null;return a}d._inherits(c,m);var n=d._createSuper(c);c.prototype.callGoTo=function(a){const {view:f}=
+this;k.assertIsSome(f);return this.goToOverride?this.goToOverride(f,a):f.goTo(a.target,a.options)};return d._createClass(c)}(b);e.__decorate([h.property()],b.prototype,"goToOverride",void 0);e.__decorate([h.property()],b.prototype,"view",void 0);return b=e.__decorate([l.subclass("esri.widgets.support.GoTo")],b)};Object.defineProperty(g,Symbol.toStringTag,{value:"Module"})});

@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../chunks/_rollupPluginBabelHelpers ../../chunks/tslib.es6 ../../core/accessorSupport/decorators/property ../../core/accessorSupport/ensureType ../../core/arrayUtils ../../core/has ../../core/accessorSupport/interfaces ../../core/Logger ../../core/accessorSupport/tracking/Flags ../../core/accessorSupport/extensions/serializableProperty/reader ../../core/Error ./LayerView".split(" "),function(d,e,f,b,l,m,n,p,q,r,t,g){b=function(h){function c(a){a=k.call(this,a);a.layer=null;a.sublayerViews=
+null;return a}d._inherits(c,h);var k=d._createSuper(c);c.prototype.highlight=function(a){throw Error("Not implemented");};return d._createClass(c)}(g);e.__decorate([f.property()],b.prototype,"layer",void 0);e.__decorate([f.property()],b.prototype,"sublayerViews",void 0);return b});

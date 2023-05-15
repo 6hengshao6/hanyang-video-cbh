@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../../chunks/_rollupPluginBabelHelpers ../../../chunks/tslib.es6 ../../../core/accessorSupport/decorators/property ../../../core/accessorSupport/ensureType ../../../core/arrayUtils ../../../core/has ../../../core/accessorSupport/decorators/enumeration ../../../core/accessorSupport/decorators/subclass ./PointSizeAlgorithm".split(" "),function(e,b,g,a,p,q,h,k,l){var f;a=f=function(m){function c(){var d=n.apply(this,arguments);d.type="fixed-size";d.size=0;d.useRealWorldSymbolSizes=null;return d}
+e._inherits(c,m);var n=e._createSuper(c);c.prototype.clone=function(){return new f({size:this.size,useRealWorldSymbolSizes:this.useRealWorldSymbolSizes})};return e._createClass(c)}(l);b.__decorate([h.enumeration({pointCloudFixedSizeAlgorithm:"fixed-size"})],a.prototype,"type",void 0);b.__decorate([g.property({type:Number,nonNullable:!0,json:{write:!0}})],a.prototype,"size",void 0);b.__decorate([g.property({type:Boolean,json:{write:!0}})],a.prototype,"useRealWorldSymbolSizes",void 0);return a=f=b.__decorate([k.subclass("esri.renderers.support.pointCloud.PointSizeFixedSizeAlgorithm")],
+a)});

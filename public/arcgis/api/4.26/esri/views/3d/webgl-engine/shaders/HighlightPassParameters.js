@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define(["exports","../../../../chunks/_rollupPluginBabelHelpers","../../../../chunks/vec4f32","../../../../chunks/vec4f64","../core/shaderModules/interfaces"],function(e,b,f,g,c){c=function(h){function d(){var a=k.apply(this,arguments);a.color=f.fromValues(1,0,1,1);a.haloColor=f.fromValues(1,0,1,1);a.haloOpacity=1;a.haloOpacityOccluded=.25;a.fillOpacity=.2;a.fillOpacityOccluded=.05;a.shadowColor=g.fromValues(1,0,1,1);a.shadowOpacity=.15;a.occludedShadowOpacity=.075;return a}b._inherits(d,h);var k=
+b._createSuper(d);return b._createClass(d)}(c.NoParameters);e.HighlightPassParameters=c;Object.defineProperty(e,Symbol.toStringTag,{value:"Module"})});

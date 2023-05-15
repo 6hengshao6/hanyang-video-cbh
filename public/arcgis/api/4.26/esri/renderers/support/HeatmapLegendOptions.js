@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("exports ../../chunks/_rollupPluginBabelHelpers ../../chunks/tslib.es6 ../../core/Clonable ../../core/JSONSupport ../../core/accessorSupport/decorators/property ../../core/accessorSupport/ensureType ../../core/arrayUtils ../../core/has ../../core/accessorSupport/decorators/subclass".split(" "),function(a,d,b,g,h,e,n,p,q,k){a.HeatmapLegendOptions=function(l){function f(){var c=m.apply(this,arguments);c.minLabel=null;c.maxLabel=null;c.title=null;return c}d._inherits(f,l);var m=d._createSuper(f);
+return d._createClass(f)}(g.ClonableMixin(h.JSONSupport));b.__decorate([e.property({type:String,json:{write:!0}})],a.HeatmapLegendOptions.prototype,"minLabel",void 0);b.__decorate([e.property({type:String,json:{write:!0}})],a.HeatmapLegendOptions.prototype,"maxLabel",void 0);b.__decorate([e.property({type:String,json:{write:!0}})],a.HeatmapLegendOptions.prototype,"title",void 0);a.HeatmapLegendOptions=b.__decorate([k.subclass("esri.renderers.support.HeatmapLegendOptions")],a.HeatmapLegendOptions);
+Object.defineProperty(a,Symbol.toStringTag,{value:"Module"})});

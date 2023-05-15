@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define(["exports","../../Color","../../core/maybe"],function(g,l,x){async function n(a){await a.whenReady();var b=a.basemapView?.baseLayerViews.map(f=>f.layer).toArray()??[];if(!b.length)return b=(b=getComputedStyle(a.container).backgroundColor)&&new l(b),a.get("background.color")||(b&&0!==b.a?b:null)||null;a=(await a.takeScreenshot({format:"png",layers:b})).data.data;b=a.length;let d=0,e=0,c=0,p=0,h=0,q=0;for(let f=0;f<b;f+=4){const r=a[f],t=a[f+1],u=a[f+2],m=a[f+3],k=m/255;d+=r*r*k;e+=t*t*k;c+=
+u*u*k;h+=k;m&&(p+=m,q++)}d=Math.round(Math.sqrt(d/h));e=Math.round(Math.sqrt(e/h));c=Math.round(Math.sqrt(c/h));return new l([d,e,c,p/q/255])}function v(a){return w(a).isBright?"light":"dark"}function w(a){let {r:b,g:d,b:e,a:c}=a;1>c&&(b=Math.round(c*b+255*(1-c)),d=Math.round(c*d+255*(1-c)),e=Math.round(c*e+255*(1-c)));return new l({r:b,g:d,b:e})}g.getBackgroundColor=n;g.getBackgroundColorTheme=async function(a){if(!a)return null;a=await n(a);return x.isSome(a)?v(a):null};g.getColorLuminance=function(a){const {r:b,
+g:d,b:e}=w(a);return.2126*b+.7152*d+.0722*e};g.getColorTheme=v;Object.defineProperty(g,Symbol.toStringTag,{value:"Module"})});

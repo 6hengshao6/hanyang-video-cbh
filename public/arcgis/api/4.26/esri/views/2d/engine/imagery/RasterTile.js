@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define(["exports","../../../../chunks/_rollupPluginBabelHelpers","../../../../chunks/mat3f32","./RasterBitmap","../webgl/TiledDisplayObject"],function(g,a,h,m,f){f=function(b){function c(e,n,p,q,k,l,r=null){var d=t.call(this,e,n,p,q,k,l);d.bitmap=null;d.bitmap=new m.RasterBitmap(r,null,null);d.bitmap.coordScale=[k,l];d.bitmap.once("isReady",()=>d.ready());return d}a._inherits(c,b);var t=a._createSuper(c);b=c.prototype;b.destroy=function(){a._get(a._getPrototypeOf(c.prototype),"destroy",this).call(this);
+this.bitmap.destroy();this.stage=this.bitmap=null};b.setTransform=function(e){a._get(a._getPrototypeOf(c.prototype),"setTransform",this).call(this,e);this.bitmap.transforms.dvs=this.transforms.dvs};b._createTransforms=function(){return{dvs:h.create(),tileMat3:h.create()}};b.onAttach=function(){this.bitmap.stage=this.stage};b.onDetach=function(){this.bitmap.stage=null};a._createClass(c,[{key:"stencilRef",get:function(){return this.bitmap.stencilRef},set:function(e){this.bitmap.stencilRef=e}}]);return c}(f.TiledDisplayObject);
+g.RasterTile=f;Object.defineProperty(g,Symbol.toStringTag,{value:"Module"})});

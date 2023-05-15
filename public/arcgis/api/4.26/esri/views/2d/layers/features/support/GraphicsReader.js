@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("exports ../../../../../chunks/_rollupPluginBabelHelpers ../../../../../geometry/support/jsonUtils ../../../../../layers/graphics/featureConversionUtils ./FeatureSetReader ./FeatureSetReaderJSON".split(" "),function(k,e,m,n,p,f){f=function(c){function b(a,g,h){a=q.call(this,a,g,null);a._transform=h;return a}e._inherits(b,c);var q=e._createSuper(b);b.from=function(a,g,h){const r=p.FeatureSetReader.createInstance(),l=[];a=a.filter(d=>!!d.geometry);for(const d of a)a=m.getJsonType(d.geometry),
+n.convertFromGraphics(l,[d],a,!1,!1,g);return new b(r,l,h)};c=b.prototype;c.readGraphic=function(){return this._current};c.getCursor=function(){return this.copy()};c.copy=function(){const a=new b(this.instance,this._features,this._transform);this.copyInto(a);return a};e._createClass(b,[{key:"geometryType",get:function(){const a=this._current;return a?a.geometryType:null}},{key:"insertAfter",get:function(){return this._current.insertAfter}}]);return b}(f.FeatureSetReaderJSON);k.GraphicsReader=f;Object.defineProperty(k,
+Symbol.toStringTag,{value:"Module"})});

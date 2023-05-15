@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../chunks/_rollupPluginBabelHelpers ../../chunks/tslib.es6 ../../core/accessorSupport/decorators/property ../../core/accessorSupport/ensureType ../../core/arrayUtils ../../core/has ../../core/accessorSupport/decorators/subclass ./Grid/Column".split(" "),function(g,c,d,a,q,r,k,l){a=function(m){function e(f){var b=n.call(this,f);b.header="";b.path="EsriFeatureTableAttachmentsColumn";b.renderFunction=({root:p,rowData:h})=>{h=b._countFromItem(h?.item).toString();p.innerHTML=`<div class="${"esri-feature-table__column--attachments"}">${h}</div>`};
+b.sortable=!1;b.textAlign="center";return b}g._inherits(e,m);var n=g._createSuper(e);e.prototype._countFromItem=function(f){return f?.attachments&&f.attachments.length||0};return g._createClass(e)}(l);c.__decorate([d.property({constructOnly:!0})],a.prototype,"header",void 0);c.__decorate([d.property({readOnly:!0})],a.prototype,"path",void 0);c.__decorate([d.property()],a.prototype,"renderFunction",void 0);c.__decorate([d.property({readOnly:!0})],a.prototype,"sortable",void 0);c.__decorate([d.property({readOnly:!0})],
+a.prototype,"textAlign",void 0);return a=c.__decorate([k.subclass("esri.widgets.FeatureTable.AttachmentsColumn")],a)});

@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../chunks/_rollupPluginBabelHelpers ../../chunks/tslib.es6 ../../core/JSONSupport ../../core/accessorSupport/decorators/property ../../core/accessorSupport/ensureType ../../core/arrayUtils ../../core/has ../../core/accessorSupport/decorators/subclass".split(" "),function(b,c,a,f,l,m,n,g){a=function(h){function d(){var e=k.apply(this,arguments);e.diffuseFactor=.5;e.specularFactor=.5;return e}b._inherits(d,h);var k=b._createSuper(d);return b._createClass(d)}(a.JSONSupport);c.__decorate([f.property({type:Number,
+range:{min:0,max:1},json:{default:.5,write:!0}})],a.prototype,"diffuseFactor",void 0);c.__decorate([f.property({type:Number,range:{min:0,max:1},json:{default:.5,write:!0}})],a.prototype,"specularFactor",void 0);return a=c.__decorate([g.subclass("esri.layers.voxel.VoxelSimpleShading")],a)});

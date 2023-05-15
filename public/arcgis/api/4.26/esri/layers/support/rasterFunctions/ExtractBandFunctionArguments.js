@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../../chunks/_rollupPluginBabelHelpers ../../../chunks/tslib.es6 ../../../core/accessorSupport/decorators/property ../../../core/accessorSupport/ensureType ../../../core/arrayUtils ../../../core/has ../../../core/accessorSupport/decorators/subclass ./BaseFunctionArguments ./pixelUtils".split(" "),function(c,d,g,a,p,q,h,k,l){var e;a=e=function(m){function b(){var f=n.apply(this,arguments);f.bandIds=[];f.missingBandAction=l.MissingBandAction.bestMatch;return f}c._inherits(b,m);var n=c._createSuper(b);
+b.prototype.clone=function(){return new e({bandIds:[...this.bandIds],missingBandAction:this.missingBandAction})};return c._createClass(b)}(k);d.__decorate([g.property({json:{write:!0}})],a.prototype,"bandIds",void 0);d.__decorate([g.property({json:{write:!0}})],a.prototype,"missingBandAction",void 0);return a=e=d.__decorate([h.subclass("esri.layers.support.rasterFunctions.ExtractBandFunctionArguments")],a)});

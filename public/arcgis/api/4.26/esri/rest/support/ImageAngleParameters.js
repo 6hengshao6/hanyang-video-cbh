@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../chunks/_rollupPluginBabelHelpers ../../chunks/tslib.es6 ../../geometry ../../core/JSONSupport ../../core/lang ../../core/accessorSupport/decorators/property ../../core/accessorSupport/ensureType ../../core/accessorSupport/decorators/subclass ../../geometry/Point ../../geometry/SpatialReference".split(" "),function(f,c,a,h,k,d,l,m,n,p){var g;a=g=function(q){function e(b){b=r.call(this,b);b.angleNames=null;b.point=null;b.spatialReference=null;b.rasterId=null;return b}f._inherits(e,q);
+var r=f._createSuper(e);e.prototype.clone=function(){return new g(k.clone({angleNames:this.angleNames,point:this.point,spatialReference:this.spatialReference,rasterId:this.rasterId}))};return f._createClass(e)}(h.JSONSupport);c.__decorate([d.property({type:[String],json:{name:"angleName",write:!0}})],a.prototype,"angleNames",void 0);c.__decorate([d.property({type:n,json:{write:!0}})],a.prototype,"point",void 0);c.__decorate([d.property({type:p,json:{write:!0}})],a.prototype,"spatialReference",void 0);
+c.__decorate([d.property({type:l.Integer,json:{write:!0}})],a.prototype,"rasterId",void 0);return a=g=c.__decorate([m.subclass("esri.rest.support.ImageAngleParameters")],a)});

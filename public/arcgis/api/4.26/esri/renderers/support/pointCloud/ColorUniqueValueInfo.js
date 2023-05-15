@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../../chunks/_rollupPluginBabelHelpers ../../../chunks/tslib.es6 ../../../Color ../../../core/JSONSupport ../../../core/lang ../../../core/accessorSupport/decorators/property ../../../core/accessorSupport/ensureType ../../../core/accessorSupport/decorators/subclass".split(" "),function(f,b,k,a,h,d,l,m){var g;a=g=function(n){function e(){var c=p.apply(this,arguments);c.description=null;c.label=null;c.values=null;c.color=null;return c}f._inherits(e,n);var p=f._createSuper(e);e.prototype.clone=
+function(){return new g({description:this.description,label:this.label,values:h.clone(this.values),color:h.clone(this.color)})};return f._createClass(e)}(a.JSONSupport);b.__decorate([d.property({type:String,json:{write:!0}})],a.prototype,"description",void 0);b.__decorate([d.property({type:String,json:{write:!0}})],a.prototype,"label",void 0);b.__decorate([d.property({type:[String],json:{write:!0}})],a.prototype,"values",void 0);b.__decorate([d.property({type:k,json:{type:[l.Integer],write:!0}})],
+a.prototype,"color",void 0);return a=g=b.__decorate([m.subclass("esri.renderers.support.pointCloud.ColorUniqueValueInfo")],a)});

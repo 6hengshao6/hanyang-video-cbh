@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define(["exports","../../../chunks/_rollupPluginBabelHelpers","../../../chunks/tslib.es6","../webgl-engine/core/shaderTechnique/ShaderTechniqueConfiguration"],function(b,c,h,e){b.NoiseTextureRenderMode=void 0;(function(a){a[a.Full=0]="Full";a[a.WeatherMap=1]="WeatherMap";a[a.COUNT=2]="COUNT"})(b.NoiseTextureRenderMode||(b.NoiseTextureRenderMode={}));let g=function(a){function d(){var f=k.apply(this,arguments);f.mode=b.NoiseTextureRenderMode.Full;return f}c._inherits(d,a);var k=c._createSuper(d);return c._createClass(d)}(e.ShaderTechniqueConfiguration);
+h.__decorate([e.parameter({count:b.NoiseTextureRenderMode.COUNT})],g.prototype,"mode",void 0);b.NoiseTextureAtlasTechniqueConfiguration=g;Object.defineProperty(b,Symbol.toStringTag,{value:"Module"})});

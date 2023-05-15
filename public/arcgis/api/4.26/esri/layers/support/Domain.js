@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../chunks/_rollupPluginBabelHelpers ../../chunks/tslib.es6 ../../core/jsonMap ../../core/JSONSupport ../../core/accessorSupport/decorators/property ../../core/accessorSupport/ensureType ../../core/arrayUtils ../../core/has ../../core/accessorSupport/decorators/enumeration ../../core/accessorSupport/decorators/subclass".split(" "),function(c,d,e,a,g,n,p,q,h,k){e=new e.JSONMap({inherited:"inherited",codedValue:"coded-value",range:"range"});a=function(l){function f(b){b=m.call(this,b);b.name=
+null;b.type=null;return b}c._inherits(f,l);var m=c._createSuper(f);return c._createClass(f)}(a.JSONSupport);d.__decorate([g.property({type:String,json:{write:!0}})],a.prototype,"name",void 0);d.__decorate([h.enumeration(e)],a.prototype,"type",void 0);return a=d.__decorate([k.subclass("esri.layers.support.Domain")],a)});

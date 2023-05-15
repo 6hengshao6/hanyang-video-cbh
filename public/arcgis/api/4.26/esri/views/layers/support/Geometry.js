@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../../chunks/_rollupPluginBabelHelpers ../../../chunks/tslib.es6 ../../../geometry ../../../core/accessorSupport/decorators/property ../../../core/accessorSupport/ensureType ../../../core/arrayUtils ../../../core/has ../../../core/accessorSupport/decorators/subclass ../../../geometry/Geometry ../../../geometry/support/jsonUtils ./ClipArea ../../../geometry/Extent ../../../geometry/Polygon".split(" "),function(e,g,h,k,t,u,v,l,m,n,a,p,q){var f;h={base:m,key:"type",typeMap:{extent:p,polygon:q}};
+a=f=function(c){function d(b){b=r.call(this,b);b.type="geometry";b.geometry=null;return b}e._inherits(d,c);var r=e._createSuper(d);c=d.prototype;c.clone=function(){return new f({geometry:this.geometry?.clone()??null})};c.commitVersionProperties=function(){this.commitProperty("geometry")};return e._createClass(d)}(a);g.__decorate([k.property({types:h,json:{read:n.fromJSON,write:!0}})],a.prototype,"geometry",void 0);return a=f=g.__decorate([l.subclass("esri.views.layers.support.Geometry")],a)});

@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../../chunks/_rollupPluginBabelHelpers ../../../chunks/tslib.es6 ../../../Color ../../../core/Accessor ../../../core/accessorSupport/decorators/property ../../../core/accessorSupport/ensureType ../../../core/arrayUtils ../../../core/has ../../../core/accessorSupport/decorators/subclass".split(" "),function(f,c,g,b,d,m,n,p,h){b=function(k){function e(){var a=l.apply(this,arguments);a.color=new g([0,255,255]);a.haloOpacity=1;a.fillOpacity=.25;return a}f._inherits(e,k);var l=f._createSuper(e);
+e.prototype.equals=function(a){return this.color.equals(a.color)&&(this.haloColor||this.color).equals(a.haloColor||a.color)&&this.haloOpacity===a.haloOpacity&&this.fillOpacity===a.fillOpacity};return f._createClass(e)}(b);c.__decorate([d.property({type:g})],b.prototype,"color",void 0);c.__decorate([d.property({type:g})],b.prototype,"haloColor",void 0);c.__decorate([d.property()],b.prototype,"haloOpacity",void 0);c.__decorate([d.property()],b.prototype,"fillOpacity",void 0);return b=c.__decorate([h.subclass("esri.views.2d.support.HighlightOptions")],
+b)});

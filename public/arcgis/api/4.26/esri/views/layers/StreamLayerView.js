@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../chunks/_rollupPluginBabelHelpers ../../chunks/tslib.es6 ../../core/accessorSupport/decorators/property ../../core/accessorSupport/ensureType ../../core/arrayUtils ../../core/has ../../core/accessorSupport/decorators/subclass ../../layers/support/FeatureFilter".split(" "),function(e,c,f,m,n,p,g,h){return a=>{a=function(k){function d(...b){b=l.call(this,...b);b.connectionError=null;b.filter=null;return b}e._inherits(d,k);var l=e._createSuper(d);e._createClass(d,[{key:"connectionStatus",
+get:function(){return this.controller?.isPaused?"paused":this.controller?.connection?.connectionStatus??"disconnected"}}]);return d}(a);c.__decorate([f.property({readOnly:!0})],a.prototype,"connectionError",void 0);c.__decorate([f.property({readOnly:!0})],a.prototype,"connectionStatus",null);c.__decorate([f.property({type:h})],a.prototype,"filter",void 0);return a=c.__decorate([g.subclass("esri.layers.mixins.StreamLayerView")],a)}});

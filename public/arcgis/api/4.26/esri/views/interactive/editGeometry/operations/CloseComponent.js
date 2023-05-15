@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define(["exports","../../../../chunks/_rollupPluginBabelHelpers","../../../../core/arrayUtils","../../../../core/maybe","../EditGeometry"],function(e,h,k,a,l){let m=function(){function f(b,c){this._editGeometry=b;this._component=c;this._createdEdge=null}var d=f.prototype;d.apply=function(){let b="redo";if(a.isNone(this._createdEdge)){b="apply";const c=this._component.getFirstVertex(),g=this._component.getLastVertex();if(this._component.isClosed()||3>this._component.vertices.length||a.isNone(c)||a.isNone(g))return;
+this._createdEdge=new l.Edge(this._component,g,c)}this._createdEdge.leftVertex.rightEdge=this._createdEdge;this._createdEdge.rightVertex.leftEdge=this._createdEdge;this._component.edges.push(this._createdEdge);this._editGeometry.notifyChanges({operation:b})};d.undo=function(){a.isNone(this._createdEdge)||(k.remove(this._component.edges,this._createdEdge),this._createdEdge.leftVertex.rightEdge=null,this._createdEdge.rightVertex.leftEdge=null,this._editGeometry.notifyChanges({operation:"undo"}))};d.accumulate=
+function(){return!1};return h._createClass(f)}();e.CloseComponent=m;Object.defineProperty(e,Symbol.toStringTag,{value:"Module"})});

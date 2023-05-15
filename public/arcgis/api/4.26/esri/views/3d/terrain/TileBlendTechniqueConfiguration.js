@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("exports ../../../chunks/_rollupPluginBabelHelpers ../../../chunks/tslib.es6 ./BlendModeTechniqueConfiguration ../webgl-engine/core/shaderLibrary/terrain/TileBackground.glsl ../webgl-engine/core/shaderTechnique/ShaderTechniqueConfiguration".split(" "),function(h,d,e,a,b,f){a=function(k){function g(){var c=l.apply(this,arguments);c.output=b.BlendLayersOutput.Composite;c.baseOpacityMode=b.BaseOpacityMode.NotRequired;c.premultipliedSource=b.PremultipliedAlphaSource.Off;return c}d._inherits(g,
+k);var l=d._createSuper(g);return d._createClass(g)}(a.BlendModeTechniqueConfiguration);e.__decorate([f.parameter({count:b.BlendLayersOutput.COUNT})],a.prototype,"output",void 0);e.__decorate([f.parameter({count:b.BaseOpacityMode.COUNT})],a.prototype,"baseOpacityMode",void 0);e.__decorate([f.parameter()],a.prototype,"premultipliedSource",void 0);h.TileBlendTechniqueConfiguration=a;Object.defineProperty(h,Symbol.toStringTag,{value:"Module"})});

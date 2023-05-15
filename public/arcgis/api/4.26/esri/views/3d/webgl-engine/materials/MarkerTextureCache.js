@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define(["exports","../../../../chunks/_rollupPluginBabelHelpers","../../support/engineContent/marker","../core/material/RenderTexture"],function(c,f,g,h){let l=function(){function d(a,b){this._textures=a;this._textureRepository=b;this._texturesByPrimitive=new Map}var e=d.prototype;e.acquire=function(a){if(!this._texturesByPrimitive.has(a)){const b=g.prepareMarkerResources(this._textures,a),k=new h.RenderTexture(this._textureRepository,b.texture.id);this._texturesByPrimitive.set(a,{result:b,reference:k});
+return b.texture}return this._texturesByPrimitive.get(a).result.texture};e.destroy=function(){this._texturesByPrimitive.forEach(({result:a,reference:b})=>{b.dispose();a.release()});this._texturesByPrimitive.clear()};return f._createClass(d)}();c.MarkerTextureCache=l;Object.defineProperty(c,Symbol.toStringTag,{value:"Module"})});

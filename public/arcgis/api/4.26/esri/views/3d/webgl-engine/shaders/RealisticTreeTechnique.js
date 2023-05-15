@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("require exports ../../../../chunks/_rollupPluginBabelHelpers ../core/shaderLibrary/attributes/NormalAttribute.glsl ../core/shaderLibrary/shading/Normals.glsl ../core/shaderTechnique/ReloadableShaderModule ./DefaultMaterialTechnique ../../../../chunks/RealisticTree.glsl".split(" "),function(h,g,d,k,l,m,e,n){e=function(c){function b(){return p.apply(this,arguments)}d._inherits(b,c);var p=d._createSuper(b);c=b.prototype;c.initializeConfiguration=function(f,a){d._get(d._getPrototypeOf(b.prototype),
+"initializeConfiguration",this).call(this,f,a);a.hasMetallicRoughnessTexture=!1;a.hasEmissionTexture=!1;a.hasOcclusionTexture=!1;a.hasNormalTexture=!1;a.hasModelTransformation=!1;a.normalType=k.NormalAttributeType.Attribute;a.doubleSidedMode=l.NormalsDoubleSidedMode.WindingOrder;a.hasVertexTangents=!1};c.initializeProgram=function(f){return this._initializeProgram(f,b.shader)};return d._createClass(b)}(e.DefaultMaterialTechnique);e.shader=new m.ReloadableShaderModule(n.RealisticTree,()=>new Promise((c,
+b)=>h(["./RealisticTree.glsl"],c,b)));g.RealisticTreeTechnique=e;Object.defineProperty(g,Symbol.toStringTag,{value:"Module"})});

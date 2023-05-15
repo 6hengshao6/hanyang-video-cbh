@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../chunks/_rollupPluginBabelHelpers ../../chunks/tslib.es6 ../../core/accessorSupport/decorators/property ../../core/accessorSupport/ensureType ../../core/arrayUtils ../../core/has ../../core/accessorSupport/decorators/subclass ./BaseImageMeasureResult".split(" "),function(b,d,g,a,m,n,h,e){a=function(k){function c(){var f=l.apply(this,arguments);f.height=null;return f}b._inherits(c,k);var l=b._createSuper(c);return b._createClass(c)}(e.BaseImageMeasureResult);d.__decorate([g.property({type:e.ImageMeasureResultLengthValue,
+json:{read:!0,write:!0}})],a.prototype,"height",void 0);return a=d.__decorate([h.subclass("esri.rest.support.ImageHeightResult")],a)});

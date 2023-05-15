@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define(["exports","../chunks/_rollupPluginBabelHelpers","../chunks/tslib.es6","./accessorSupport/decorators/subclass"],function(f,a,g,h){let l=0;const m=b=>{b=function(e){function c(...d){d=k.call(this,...d);Object.defineProperty(a._assertThisInitialized(d),"uid",{writable:!1,configurable:!1,value:Date.now().toString(16)+"-object-"+l++});return d}a._inherits(c,e);var k=a._createSuper(c);return a._createClass(c)}(b);return b=g.__decorate([h.subclass("esri.core.Identifiable")],b)};f.Identifiable=function(b){function e(){return c.apply(this,
+arguments)}a._inherits(e,b);var c=a._createSuper(e);return a._createClass(e)}(m(function(){return a._createClass(function(){})}()));f.Identifiable=g.__decorate([h.subclass("esri.core.Identifiable")],f.Identifiable);f.IdentifiableMixin=m;f.NumericIdentifiableMixin=b=>{b=function(e){function c(...d){d=k.call(this,...d);Object.defineProperty(a._assertThisInitialized(d),"uid",{writable:!1,configurable:!1,value:l++});return d}a._inherits(c,e);var k=a._createSuper(c);return a._createClass(c)}(b);return b=
+g.__decorate([h.subclass("esri.core.NumericIdentifiable")],b)};Object.defineProperty(f,Symbol.toStringTag,{value:"Module"})});

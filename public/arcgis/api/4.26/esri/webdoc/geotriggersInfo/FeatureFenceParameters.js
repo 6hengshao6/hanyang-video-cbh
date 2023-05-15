@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../chunks/_rollupPluginBabelHelpers ../../chunks/tslib.es6 ../../core/Clonable ../../core/JSONSupport ../../core/accessorSupport/decorators/property ../../core/accessorSupport/ensureType ../../core/arrayUtils ../../core/has ../../core/accessorSupport/decorators/enumeration ../../core/accessorSupport/decorators/subclass ./FeatureFilter ./FeatureLayerSource".split(" "),function(d,c,a,g,e,q,r,t,h,k,l,m){a=function(n){function f(b){b=p.call(this,b);b.fenceSource=null;b.filter=null;b.bufferDistance=
+null;b.type="features";return b}d._inherits(f,n);var p=d._createSuper(f);return d._createClass(f)}(a.ClonableMixin(g.JSONSupport));c.__decorate([e.property({type:m,json:{write:{isRequired:!0}}})],a.prototype,"fenceSource",void 0);c.__decorate([e.property({type:l,json:{write:!0}})],a.prototype,"filter",void 0);c.__decorate([e.property({type:Number,json:{write:!0}})],a.prototype,"bufferDistance",void 0);c.__decorate([h.enumeration({features:"features"},{readOnly:!0})],a.prototype,"type",void 0);return a=
+c.__decorate([k.subclass("esri.webdoc.geotriggersInfo.FeatureFenceParameters")],a)});

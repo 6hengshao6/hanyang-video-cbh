@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define(["../chunks/_rollupPluginBabelHelpers","./ImmutableArray","./ImmutablePointArray"],function(e,f,g){return function(b){function c(a,d,h,k,l){a=m.call(this,a);a._lazyPath=[];a._hasZ=!1;a._hasM=!1;a._hasZ=h;a._hasM=k;a._spRef=d;a._cacheId=l;return a}e._inherits(c,b);var m=e._createSuper(c);b=c.prototype;b.get=function(a){if(void 0===this._lazyPath[a]){const d=this._elements[a];if(void 0===d)return;this._lazyPath[a]=new g(d,this._spRef,this._hasZ,this._hasM,this._cacheId,a)}return this._lazyPath[a]};
+b.equalityTest=function(a){return a===this?!0:null===a||!1===a instanceof c?!1:a.getUniqueHash()===this.getUniqueHash()};b.getUniqueHash=function(){return this._cacheId.toString()};return e._createClass(c)}(f)});

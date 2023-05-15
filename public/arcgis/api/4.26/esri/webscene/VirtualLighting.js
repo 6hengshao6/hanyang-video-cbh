@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../chunks/_rollupPluginBabelHelpers ../chunks/tslib.es6 ../core/JSONSupport ../core/accessorSupport/decorators/property ../core/accessorSupport/ensureType ../core/arrayUtils ../core/has ../core/accessorSupport/decorators/subclass".split(" "),function(e,f,a,h,m,n,p,k){var g;a=g=function(c){function d(b){b=l.call(this,b);b.type="virtual";b.directShadowsEnabled=!1;return b}e._inherits(d,c);var l=e._createSuper(d);c=d.prototype;c.clone=function(){return new g(this.cloneConstructProperties())};
+c.cloneConstructProperties=function(){return{directShadowsEnabled:this.directShadowsEnabled}};return e._createClass(d)}(a.JSONSupport);f.__decorate([h.property({readOnly:!0,type:["virtual"],json:{write:!0}})],a.prototype,"type",void 0);f.__decorate([h.property({type:Boolean,json:{default:!1,name:"directShadows",write:!0}})],a.prototype,"directShadowsEnabled",void 0);return a=g=f.__decorate([k.subclass("esri.webscene.VirtualLighting")],a)});

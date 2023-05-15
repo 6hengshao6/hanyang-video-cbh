@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("exports ../../../../chunks/_rollupPluginBabelHelpers ../../../../core/screenUtils ../../state/controllers/global/ZoomStepController ../../state/controllers/local/ZoomStepController ../../../input/InputHandler".split(" "),function(g,e,h,k,l,f){f=function(m){function c(a,b){var d=n.call(this,!0);d._view=a;d.registerIncoming("mouse-wheel",b,p=>d._handleMouseWheel(p));return d}e._inherits(c,m);var n=e._createSuper(c);c.prototype._handleMouseWheel=function(a){if(this._view.navigation.mouseWheelZoomEnabled){var b=
+a.data;this._cameraController&&this._cameraController.active||(this._cameraController=this._view.state.isGlobal?new k.ZoomStepController({view:this._view,mode:"interaction"}):new l.ZoomStepController({view:this._view,mode:"interaction"}),this._view.state.switchCameraController(this._cameraController));this._cameraController.zoomStep(-1/60*b.deltaY,h.createScreenPointArray(b.x,b.y));a.preventDefault();a.stopPropagation()}};return e._createClass(c)}(f.InputHandler);g.MouseWheelZoom=f;Object.defineProperty(g,
+Symbol.toStringTag,{value:"Module"})});

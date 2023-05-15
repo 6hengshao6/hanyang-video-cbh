@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../chunks/_rollupPluginBabelHelpers ../../chunks/tslib.es6 ../../core/jsonMap ../../core/accessorSupport/decorators/property ../../core/accessorSupport/ensureType ../../core/arrayUtils ../../core/has ../../core/accessorSupport/decorators/enumeration ../../core/accessorSupport/decorators/subclass ./LinePattern3D ./lineStyles".split(" "),function(d,e,f,h,q,r,t,k,l,a,m){var g;f=f.strict()({dash:"dash","dash-dot":"dash-dot","dash-dot-dot":"long-dash-dot-dot",dot:"dot","long-dash":"long-dash",
+"long-dash-dot":"long-dash-dot",null:"none","short-dash":"short-dash","short-dash-dot":"short-dash-dot","short-dash-dot-dot":"short-dash-dot-dot","short-dot":"short-dot",solid:"solid"});a=g=function(n){function c(b){b=p.call(this,b);b.type="style";b.style="solid";return b}d._inherits(c,n);var p=d._createSuper(c);c.prototype.clone=function(){return new g({style:this.style})};return d._createClass(c)}(a);e.__decorate([h.property({type:["style"]})],a.prototype,"type",void 0);e.__decorate([k.enumeration(f),
+h.property({type:m.lineStyles})],a.prototype,"style",void 0);return a=g=e.__decorate([l.subclass("esri.symbols.patterns.LineStylePattern3D")],a)});

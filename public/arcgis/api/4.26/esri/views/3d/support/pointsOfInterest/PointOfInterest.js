@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("exports ../../../../chunks/_rollupPluginBabelHelpers ../../../../chunks/tslib.es6 ../../../../core/Accessor ../../../../core/Handles ../../../../core/accessorSupport/decorators/property ../../../../core/accessorSupport/ensureType ../../../../core/arrayUtils ../../../../core/has ../../../../core/accessorSupport/decorators/subclass".split(" "),function(a,e,b,g,h,f,n,p,q,k){a.PointOfInterest=function(l){function c(d){d=m.call(this,d);d.handles=new h;return d}e._inherits(c,l);var m=e._createSuper(c);
+c.prototype.destroy=function(){this.handles.destroy()};return e._createClass(c)}(g);b.__decorate([f.property({constructOnly:!0})],a.PointOfInterest.prototype,"renderCoordsHelper",void 0);b.__decorate([f.property({constructOnly:!0})],a.PointOfInterest.prototype,"surface",void 0);b.__decorate([f.property({constructOnly:!0})],a.PointOfInterest.prototype,"state",void 0);a.PointOfInterest=b.__decorate([k.subclass("esri.views.3d.support.PointOfInterest")],a.PointOfInterest);Object.defineProperty(a,Symbol.toStringTag,
+{value:"Module"})});

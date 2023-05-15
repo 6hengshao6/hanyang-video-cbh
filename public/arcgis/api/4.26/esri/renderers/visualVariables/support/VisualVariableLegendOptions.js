@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../../chunks/_rollupPluginBabelHelpers ../../../chunks/tslib.es6 ../../../core/accessorSupport/decorators/property ../../../core/accessorSupport/ensureType ../../../core/arrayUtils ../../../core/has ../../../core/accessorSupport/decorators/subclass ../../support/LegendOptions".split(" "),function(c,e,g,a,n,p,h,k){var d;a=d=function(l){function b(){var f=m.apply(this,arguments);f.showLegend=null;return f}c._inherits(b,l);var m=c._createSuper(b);b.prototype.clone=function(){return new d({title:this.title,
+showLegend:this.showLegend})};return c._createClass(b)}(k.LegendOptions);e.__decorate([g.property({type:Boolean,json:{write:!0}})],a.prototype,"showLegend",void 0);return a=d=e.__decorate([h.subclass("esri.renderers.visualVariables.support.VisualVariableLegendOptions")],a)});

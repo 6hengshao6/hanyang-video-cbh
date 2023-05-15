@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../chunks/_rollupPluginBabelHelpers ../../chunks/tslib.es6 ../../core/Accessor ../../core/accessorSupport/decorators/property ../../core/accessorSupport/ensureType ../../core/arrayUtils ../../core/has ../../core/accessorSupport/decorators/subclass".split(" "),function(e,b,a,d,l,m,n,g){a=function(h){function f(){var c=k.apply(this,arguments);c.timeRangeSlider=!0;c.timezone=!0;c.datePicker=!0;c.visualizationOptions=!0;c.colorPicker=!0;c.tooltip=!0;return c}e._inherits(f,h);var k=e._createSuper(f);
+return e._createClass(f)}(a);b.__decorate([d.property()],a.prototype,"timeRangeSlider",void 0);b.__decorate([d.property()],a.prototype,"timezone",void 0);b.__decorate([d.property()],a.prototype,"datePicker",void 0);b.__decorate([d.property()],a.prototype,"visualizationOptions",void 0);b.__decorate([d.property()],a.prototype,"colorPicker",void 0);b.__decorate([d.property()],a.prototype,"tooltip",void 0);return a=b.__decorate([g.subclass("esri.widgets.ShadowCast.ShadowCastVisibleElements")],a)});

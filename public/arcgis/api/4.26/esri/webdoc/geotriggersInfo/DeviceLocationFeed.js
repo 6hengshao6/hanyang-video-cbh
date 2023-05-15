@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../chunks/_rollupPluginBabelHelpers ../../chunks/tslib.es6 ../../core/Clonable ../../core/jsonMap ../../core/JSONSupport ../../core/accessorSupport/decorators/property ../../core/accessorSupport/ensureType ../../core/arrayUtils ../../core/has ../../core/accessorSupport/decorators/subclass ./ExpressionInfo".split(" "),function(d,e,a,b,h,g,p,q,r,k,l){b=new b.JSONMap({deviceLocation:"device-location"});a=function(m){function f(c){c=n.call(this,c);c.filterExpression=null;c.type="device-location";
+return c}d._inherits(f,m);var n=d._createSuper(f);return d._createClass(f)}(a.ClonableMixin(h.JSONSupport));e.__decorate([g.property({type:l,json:{write:!0}})],a.prototype,"filterExpression",void 0);e.__decorate([g.property({type:b.apiValues,readOnly:!0,json:{type:b.jsonValues,read:b.read,write:b.write}})],a.prototype,"type",void 0);return a=e.__decorate([k.subclass("esri.webdoc.geotriggersInfo.DeviceLocationFeed")],a)});

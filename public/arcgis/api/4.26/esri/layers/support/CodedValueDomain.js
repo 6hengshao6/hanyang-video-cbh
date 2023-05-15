@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../chunks/_rollupPluginBabelHelpers ../../chunks/tslib.es6 ../../core/lang ../../core/accessorSupport/decorators/property ../../core/accessorSupport/ensureType ../../core/accessorSupport/decorators/enumeration ../../core/accessorSupport/decorators/subclass ./CodedValue ./Domain".split(" "),function(e,f,l,m,b,n,p,q,r){var g;b=g=function(c){function d(a){a=t.call(this,a);a.codedValues=null;a.type="coded-value";return a}e._inherits(d,c);var t=e._createSuper(d);c=d.prototype;c.getName=function(a){let h=
+null;if(this.codedValues){const u=String(a);this.codedValues.some(k=>{String(k.code)===u&&(h=k.name);return!!h})}return h};c.clone=function(){return new g({codedValues:l.clone(this.codedValues),name:this.name})};return e._createClass(d)}(r);f.__decorate([m.property({type:[q.CodedValue],json:{write:!0}})],b.prototype,"codedValues",void 0);f.__decorate([n.enumeration({codedValue:"coded-value"})],b.prototype,"type",void 0);return b=g=f.__decorate([p.subclass("esri.layers.support.CodedValueDomain")],
+b)});

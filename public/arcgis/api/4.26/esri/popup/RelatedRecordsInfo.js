@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../chunks/_rollupPluginBabelHelpers ../chunks/tslib.es6 ../core/JSONSupport ../core/lang ../core/accessorSupport/decorators/property ../core/accessorSupport/ensureType ../core/accessorSupport/decorators/subclass ./support/RelatedRecordsInfoFieldOrder".split(" "),function(d,e,a,h,g,p,k,l){var f;a=f=function(m){function c(b){b=n.call(this,b);b.showRelatedRecords=null;b.orderByFields=null;return b}d._inherits(c,m);var n=d._createSuper(c);c.prototype.clone=function(){return new f({showRelatedRecords:this.showRelatedRecords,
+orderByFields:this.orderByFields?h.clone(this.orderByFields):null})};return d._createClass(c)}(a.JSONSupport);e.__decorate([g.property({type:Boolean,json:{write:!0}})],a.prototype,"showRelatedRecords",void 0);e.__decorate([g.property({type:[l],json:{write:!0}})],a.prototype,"orderByFields",void 0);return a=f=e.__decorate([k.subclass("esri.popup.RelatedRecordsInfo")],a)});

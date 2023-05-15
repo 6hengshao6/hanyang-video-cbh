@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../chunks/_rollupPluginBabelHelpers ../../chunks/tslib.es6 ../../core/JSONSupport ../../core/accessorSupport/decorators/property ../../core/accessorSupport/ensureType ../../core/arrayUtils ../../core/has ../../core/accessorSupport/decorators/subclass".split(" "),function(f,b,a,d,m,n,p,h){var g;a=g=function(k){function e(){var c=l.apply(this,arguments);c.age=null;c.ageReceived=null;c.displayCount=null;c.maxObservations=1;return c}f._inherits(e,k);var l=f._createSuper(e);e.prototype.clone=
+function(){return new g({age:this.age,ageReceived:this.ageReceived,displayCount:this.displayCount,maxObservations:this.maxObservations})};return f._createClass(e)}(a.JSONSupport);b.__decorate([d.property({type:Number,json:{write:!0}})],a.prototype,"age",void 0);b.__decorate([d.property({type:Number,json:{write:!0}})],a.prototype,"ageReceived",void 0);b.__decorate([d.property({type:Number,json:{write:!0}})],a.prototype,"displayCount",void 0);b.__decorate([d.property({type:Number,json:{write:!0}})],
+a.prototype,"maxObservations",void 0);return a=g=b.__decorate([h.subclass("esri.layers.support.PurgeOptions")],a)});

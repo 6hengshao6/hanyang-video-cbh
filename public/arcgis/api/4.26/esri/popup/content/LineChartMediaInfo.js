@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../chunks/_rollupPluginBabelHelpers ../../chunks/tslib.es6 ../../core/accessorSupport/decorators/property ../../core/accessorSupport/ensureType ../../core/arrayUtils ../../core/has ../../core/accessorSupport/decorators/subclass ./mixins/ChartMediaInfo ./support/chartMediaInfoUtils".split(" "),function(d,f,g,a,p,q,h,k,l){var e;a=e=function(m){function b(c){c=n.call(this,c);c.type="line-chart";return c}d._inherits(b,m);var n=d._createSuper(b);b.prototype.clone=function(){return new e({altText:this.altText,
+title:this.title,caption:this.caption,value:this.value?this.value.clone():null})};return d._createClass(b)}(k);f.__decorate([g.property({type:["line-chart"],readOnly:!0,json:{type:["linechart"],read:!1,write:l.chartTypeKebabDict.write}})],a.prototype,"type",void 0);return a=e=f.__decorate([h.subclass("esri.popup.content.LineChartMediaInfo")],a)});

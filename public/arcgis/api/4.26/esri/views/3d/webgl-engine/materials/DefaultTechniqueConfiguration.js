@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define(["exports","../../../../chunks/_rollupPluginBabelHelpers","../../../../chunks/tslib.es6","../core/shaderTechnique/BindType","../core/shaderTechnique/ShaderTechniqueConfiguration"],function(f,d,c,g,a){let b=function(h){function e(){return k.apply(this,arguments)}d._inherits(e,h);var k=d._createSuper(e);return d._createClass(e)}(a.ShaderTechniqueConfiguration);c.__decorate([a.parameter({constValue:!0})],b.prototype,"hasSliceHighlight",void 0);c.__decorate([a.parameter({constValue:!1})],b.prototype,
+"hasSliceInVertexProgram",void 0);c.__decorate([a.parameter({constValue:!1})],b.prototype,"instancedDoublePrecision",void 0);c.__decorate([a.parameter({constValue:!1})],b.prototype,"hasModelTransformation",void 0);c.__decorate([a.parameter({constValue:g.BindType.Pass})],b.prototype,"pbrTextureBindType",void 0);f.DefaultTechniqueConfiguration=b;Object.defineProperty(f,Symbol.toStringTag,{value:"Module"})});

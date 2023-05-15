@@ -1,0 +1,5 @@
+/*
+All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+*/
+import{i as o}from"./maybe.js";import{projectBuffer as n}from"../geometry/projection.js";import{n as t,a as e}from"./DoubleArray.js";import{C as s,p as i}from"./triangulationUtils.js";import{g as r}from"./ElevationContext.js";import{D as p}from"./RenderGeometry.js";function a(o,n,e,p){const a="polygon"===o.type?s.CCW_IS_HOLE:s.NONE,l="polygon"===o.type?o.rings:o.paths,{position:m,outlines:u}=i(l,!!o.hasZ,a),f=t(m.length),g=r(m,o.spatialReference,0,f,0,m,0,m.length/3,n,e,p),y=null!=g;return{lines:y?c(u,m,f):[],projectionSuccess:y,sampledElevation:g}}function l(o,t){const e="polygon"===o.type?s.CCW_IS_HOLE:s.NONE,r="polygon"===o.type?o.rings:o.paths,{position:a,outlines:l}=i(r,!1,e),m=n(a,o.spatialReference,0,a,t,0,a.length/3);for(let o=2;o<a.length;o+=3)a[o]=p;return{lines:m?c(l,a):[],projectionSuccess:m}}function c(n,t,s=null){const i=new Array;for(const{index:r,count:p}of n){if(p<=1)continue;const n=3*r,a=3*p;i.push({position:e(t,3*r,3*p),mapPositions:o(s)?e(s,n,a):void 0})}return i}export{l as a,a as g};

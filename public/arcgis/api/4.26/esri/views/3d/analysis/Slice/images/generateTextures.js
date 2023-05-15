@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define(["exports","./heading-rotate-svg"],function(d,h){function k(b,{accentColor:a,contrastColor:c}){const e=a.toHex();a=a.a;const f=c.toHex();c=c.a;const g=b.getElementsByTagNameNS("http://www.w3.org/2000/svg","style").namedItem("theme-style");g&&(g.innerHTML=`\n      .contrast-fill { fill: ${f}; fill-opacity: ${c}; }\n      .contrast-stroke { stroke: ${f}; stroke-opacity: ${c};  }\n      .accent-fill { fill: ${e}; fill-opacity: ${a}; }\n      .accent-stroke { stroke: ${e}; stroke-opacity:  ${a}; }`);
+return b}d.generateHeadingRotateTexture=function(b){var a=h.split(",")[1];a=atob(a);a=(new DOMParser).parseFromString(a,"image/svg+xml");a=k(a,b);a=(new XMLSerializer).serializeToString(a);a=`data:image/svg+xml;base64,${btoa(a)}`;b=b.size;b=new Image(b,b);b.src=a;return b};Object.defineProperty(d,Symbol.toStringTag,{value:"Module"})});

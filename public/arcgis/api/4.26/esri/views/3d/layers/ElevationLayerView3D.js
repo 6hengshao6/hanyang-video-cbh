@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../../chunks/_rollupPluginBabelHelpers ../../../chunks/tslib.es6 ../../../core/Error ../../../core/accessorSupport/decorators/property ../../../core/accessorSupport/ensureType ../../../core/arrayUtils ../../../core/has ../../../core/accessorSupport/decorators/subclass ./LayerView3D ./TiledLayerView3D ../../layers/LayerView".split(" "),function(e,f,h,g,b,r,t,k,l,m,n){b=function(p){function c(){var a=q.apply(this,arguments);a.type="elevation-3d";return a}e._inherits(c,p);var q=e._createSuper(c);
+c.prototype.initialize=function(){var a=this.view?.map?.allLayers;a=a&&a.includes(this.layer);var d=this.view?.map?.ground?.layers;d=d&&d.includes(this.layer);a&&!d&&(a=new h("layerview:elevation-layer-only","3D elevation layer '"+this.layer.id+"' can only be added to layers in map.ground"),this.addResolvingPromise(Promise.reject(a)));this._addTilingSchemeMatchPromise()};e._createClass(c,[{key:"tileInfo",get:function(){return this.layer.tileInfo}}]);return c}(m.TiledLayerView3D(l.LayerView3D(n)));
+f.__decorate([g.property()],b.prototype,"layer",void 0);f.__decorate([g.property()],b.prototype,"tileInfo",null);return b=f.__decorate([k.subclass("esri.views.3d.layers.ElevationLayerView3D")],b)});

@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../../chunks/_rollupPluginBabelHelpers ../../../chunks/tslib.es6 ../../../core/Logger ../../../core/accessorSupport/ensureType ../../../core/arrayUtils ../../../core/has ../../../core/Error ../../../core/accessorSupport/decorators/subclass ../SizeSlider/SizeSliderViewModel".split(" "),function(b,h,c,p,q,r,t,k,l){c=function(m){function a(d){return n.call(this,d)}b._inherits(a,m);var n=b._createSuper(a);a.prototype.getStopInfo=function(){const {min:d,max:f,stops:e}=this;return e&&e.length?
+e.map(g=>({color:g.color,offset:(f-g.value)/(f-d)})):[]};return b._createClass(a)}(l);return c=h.__decorate([k.subclass("esri.widgets.smartMapping.ColorSizeSlider.ColorSizeSliderViewModel")],c)});

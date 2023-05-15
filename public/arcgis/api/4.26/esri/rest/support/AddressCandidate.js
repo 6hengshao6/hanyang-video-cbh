@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../chunks/_rollupPluginBabelHelpers ../../chunks/tslib.es6 ../../core/JSONSupport ../../core/accessorSupport/decorators/property ../../core/accessorSupport/ensureType ../../core/arrayUtils ../../core/has ../../core/accessorSupport/decorators/subclass ../../geometry/Extent ../../geometry/Point".split(" "),function(e,c,a,d,n,p,q,g,h,k){a=function(l){function f(b){b=m.call(this,b);b.address=null;b.attributes=null;b.extent=null;b.location=null;b.score=null;return b}e._inherits(f,l);var m=e._createSuper(f);
+return e._createClass(f)}(a.JSONSupport);c.__decorate([d.property({type:String,json:{write:!0}})],a.prototype,"address",void 0);c.__decorate([d.property({type:Object,json:{write:!0}})],a.prototype,"attributes",void 0);c.__decorate([d.property({type:h,json:{write:!0}})],a.prototype,"extent",void 0);c.__decorate([d.property({type:k,json:{write:!0}})],a.prototype,"location",void 0);c.__decorate([d.property({type:Number,json:{write:!0}})],a.prototype,"score",void 0);return a=c.__decorate([g.subclass("esri.rest.support.AddressCandidate")],
+a)});

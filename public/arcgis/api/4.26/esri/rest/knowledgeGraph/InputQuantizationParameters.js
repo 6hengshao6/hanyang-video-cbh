@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../chunks/_rollupPluginBabelHelpers ../../chunks/tslib.es6 ../../core/Accessor ../../core/accessorSupport/decorators/property ../../core/accessorSupport/ensureType ../../core/arrayUtils ../../core/has ../../core/accessorSupport/decorators/subclass".split(" "),function(e,c,a,d,l,m,n,g){a=function(h){function f(b){b=k.call(this,b);b.xyResolution=null;b.xFalseOrigin=null;b.yFalseOrigin=null;b.zResolution=null;b.zFalseOrigin=null;b.mResolution=null;b.mFalseOrigin=null;return b}e._inherits(f,
+h);var k=e._createSuper(f);return e._createClass(f)}(a);c.__decorate([d.property()],a.prototype,"xyResolution",void 0);c.__decorate([d.property()],a.prototype,"xFalseOrigin",void 0);c.__decorate([d.property()],a.prototype,"yFalseOrigin",void 0);c.__decorate([d.property()],a.prototype,"zResolution",void 0);c.__decorate([d.property()],a.prototype,"zFalseOrigin",void 0);c.__decorate([d.property()],a.prototype,"mResolution",void 0);c.__decorate([d.property()],a.prototype,"mFalseOrigin",void 0);return a=
+c.__decorate([g.subclass("esri.rest.knowledgeGraph.InputQuantizationParameters")],a)});

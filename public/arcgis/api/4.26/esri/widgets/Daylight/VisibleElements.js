@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../chunks/_rollupPluginBabelHelpers ../../chunks/tslib.es6 ../../core/Accessor ../../core/accessorSupport/decorators/property ../../core/accessorSupport/ensureType ../../core/arrayUtils ../../core/has ../../core/accessorSupport/decorators/subclass".split(" "),function(e,b,a,d,l,m,n,g){a=function(h){function f(){var c=k.apply(this,arguments);c.header=!0;c.playButtons=!0;c.datePicker=!0;c.timezone=!0;c.sunLightingToggle=!0;c.shadowsToggle=!0;return c}e._inherits(f,h);var k=e._createSuper(f);
+return e._createClass(f)}(a);b.__decorate([d.property({type:Boolean,nonNullable:!0})],a.prototype,"header",void 0);b.__decorate([d.property({type:Boolean,nonNullable:!0})],a.prototype,"playButtons",void 0);b.__decorate([d.property({type:Boolean,nonNullable:!0})],a.prototype,"datePicker",void 0);b.__decorate([d.property({type:Boolean,nonNullable:!0})],a.prototype,"timezone",void 0);b.__decorate([d.property({type:Boolean,nonNullable:!0})],a.prototype,"sunLightingToggle",void 0);b.__decorate([d.property({type:Boolean,
+nonNullable:!0})],a.prototype,"shadowsToggle",void 0);return a=b.__decorate([g.subclass("esri.widgets.Daylight.VisibleElements")],a)});

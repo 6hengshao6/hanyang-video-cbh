@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../chunks/_rollupPluginBabelHelpers ../chunks/tslib.es6 ./featureReferenceUtils ../core/Accessor ../core/Clonable ../core/JSONSupport ../core/maybe ../core/accessorSupport/decorators/property ../core/accessorSupport/ensureType ../core/arrayUtils ../core/has ../core/accessorSupport/decorators/subclass ../core/accessorSupport/decorators/persistable ../geometry/Point ../symbols/support/ElevationInfo".split(" "),function(e,c,g,b,l,m,h,f,u,v,w,n,k,p,q){b=function(r){function d(a){a=t.call(this,
+a);a.position=null;a.elevationInfo=null;a.feature=null;return a}e._inherits(d,r);var t=e._createSuper(d);d.prototype.equals=function(a){return h.equalsMaybe(this.position,a.position)&&h.equalsMaybe(this.elevationInfo,a.elevationInfo)&&g.featureReferenceEquals(this.feature,a.feature)};return e._createClass(d)}(m.JSONSupportMixin(l.ClonableMixin(b)));c.__decorate([f.property({type:p}),k.persistable()],b.prototype,"position",void 0);c.__decorate([f.property({type:q}),k.persistable()],b.prototype,"elevationInfo",
+void 0);c.__decorate([f.property(g.featureReferenceProperty)],b.prototype,"feature",void 0);return b=c.__decorate([n.subclass("esri.analysis.LineOfSightAnalysisObserver")],b)});

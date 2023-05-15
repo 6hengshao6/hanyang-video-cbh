@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../chunks/_rollupPluginBabelHelpers ../../chunks/tslib.es6 ../../core/accessorSupport/decorators/property ../../core/accessorSupport/ensureType ../../core/arrayUtils ../../core/has ../../core/accessorSupport/decorators/subclass".split(" "),function(c,d,e,l,m,n,f){return a=>{a=function(g){function b(){return h.apply(this,arguments)}c._inherits(b,g);var h=c._createSuper(b);c._createClass(b,[{key:"availableFields",get:function(){return this.layer.fieldsIndex.fields.map(k=>k.name)}}]);return b}(a);
+d.__decorate([e.property()],a.prototype,"layer",void 0);d.__decorate([e.property({readOnly:!0})],a.prototype,"availableFields",null);return a=d.__decorate([f.subclass("esri.views.layers.OGCFeatureLayerView")],a)}});

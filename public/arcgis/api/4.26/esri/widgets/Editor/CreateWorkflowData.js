@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../chunks/_rollupPluginBabelHelpers ../../chunks/tslib.es6 ../../core/Accessor ../../core/accessorSupport/decorators/property ../../core/accessorSupport/ensureType ../../core/arrayUtils ../../core/has ../../core/accessorSupport/decorators/subclass".split(" "),function(d,c,a,e,l,m,n,g){a=function(h){function f(b){b=k.call(this,b);b.creationInfo=null;b.edits=null;b.viewModel=null;return b}d._inherits(f,h);var k=d._createSuper(f);return d._createClass(f)}(a);c.__decorate([e.property()],a.prototype,
+"creationInfo",void 0);c.__decorate([e.property()],a.prototype,"edits",void 0);c.__decorate([e.property()],a.prototype,"viewModel",void 0);return a=c.__decorate([g.subclass("esri.widgets.Editor.CreateWorkflowData")],a)});

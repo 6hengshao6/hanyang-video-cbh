@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../../chunks/_rollupPluginBabelHelpers ../../../chunks/tslib.es6 ../../../core/Accessor ../../../core/accessorSupport/decorators/property ../../../core/accessorSupport/ensureType ../../../core/arrayUtils ../../../core/has ../../../core/accessorSupport/decorators/subclass".split(" "),function(e,c,a,f,l,m,n,g){a=function(h){function d(b){b=k.call(this,b);b.format=null;b.position={coordinate:null,location:null};return b}e._inherits(d,h);var k=e._createSuper(d);e._createClass(d,[{key:"displayCoordinate",
+get:function(){return this.format?.getDisplayCoordinate(this.position?.coordinate)}}]);return d}(a);c.__decorate([f.property({readOnly:!0})],a.prototype,"displayCoordinate",null);c.__decorate([f.property()],a.prototype,"format",void 0);c.__decorate([f.property()],a.prototype,"position",void 0);return a=c.__decorate([g.subclass("esri.widgets.CoordinateConversion.support.Conversion")],a)});

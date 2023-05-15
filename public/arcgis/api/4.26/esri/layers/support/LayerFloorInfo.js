@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../chunks/_rollupPluginBabelHelpers ../../chunks/tslib.es6 ../../core/Collection ../../core/JSONSupport ../../core/accessorSupport/decorators/property ../../core/accessorSupport/ensureType ../../core/arrayUtils ../../core/has ../../core/accessorSupport/decorators/subclass".split(" "),function(e,c,h,a,f,n,p,q,k){var g;a=g=function(l){function d(b){b=m.call(this,b);b.floorField=null;b.viewAllMode=!1;b.viewAllLevelIds=new h;return b}e._inherits(d,l);var m=e._createSuper(d);d.prototype.clone=
+function(){return new g({floorField:this.floorField,viewAllMode:this.viewAllMode,viewAllLevelIds:this.viewAllLevelIds})};return e._createClass(d)}(a.JSONSupport);c.__decorate([f.property({type:String,json:{write:!0}})],a.prototype,"floorField",void 0);c.__decorate([f.property({json:{read:!1,write:!1}})],a.prototype,"viewAllMode",void 0);c.__decorate([f.property({json:{read:!1,write:!1}})],a.prototype,"viewAllLevelIds",void 0);return a=g=c.__decorate([k.subclass("esri.layers.support.LayerFloorInfo")],
+a)});

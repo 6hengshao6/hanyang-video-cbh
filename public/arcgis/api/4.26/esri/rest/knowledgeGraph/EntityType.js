@@ -1,0 +1,4 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../chunks/_rollupPluginBabelHelpers ../../chunks/tslib.es6 ../../core/Logger ../../core/accessorSupport/ensureType ../../core/arrayUtils ../../core/has ../../core/Error ../../core/accessorSupport/decorators/subclass ./GraphObjectType".split(" "),function(a,d,b,l,m,n,p,e,f){b=function(g){function c(h){return k.call(this,h)}a._inherits(c,g);var k=a._createSuper(c);return a._createClass(c)}(f);return b=d.__decorate([e.subclass("esri.rest.knowledgeGraph.EntityType")],b)});

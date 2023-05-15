@@ -1,0 +1,363 @@
+@import './mixin.scss';
+@import './transition.scss';
+@import './element-dark.scss';
+
+@font-face {
+  font-family: pangmenzhengdao;
+  src: url('~@/assets/pangmenzhengdao.ttf');
+}
+
+body {
+  min-width: 1200px;
+  height: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Microsoft YaHei, Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Arial, sans-serif;
+  // font-family: pangmenzhengdao !important;
+  font-size: $font-size-primary !important;
+  color: $--color-text-regular;
+}
+
+label {
+  font-weight: 700;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+  line-height: 1 !important;
+}
+
+#app {
+  height: 100%;
+}
+ul,
+ol {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+div,
+ul,
+table {
+  @include scrollBar;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+div:focus {
+  outline: none;
+}
+
+.clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: '';
+    clear: both;
+    height: 0;
+  }
+}
+
+// 可编辑表格内input表单验证错误信息的样式修改
+.editTable {
+  .el-form-item__error {
+    position: relative;
+    padding-top: 0;
+    padding-bottom: 4px;
+  }
+}
+
+// 可编辑表格新增一行按钮
+.addRow {
+  width: 100% !important;
+  border-style: dashed !important;
+  margin-top: 20px !important;
+}
+
+.no-margin {
+  margin: 0 !important;
+}
+
+// 单行文字超出省略号显示
+.ellipsis {
+  @include ellipsis;
+}
+
+.ellipsis2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.chart {
+  height: 100%;
+}
+
+// .filter-wrapper {
+//   margin-bottom: 10px;
+// }
+
+.main-container {
+  height: 100% !important;
+}
+.btn-wrapper {
+  margin-bottom: 20px;
+}
+
+// 页面左右两边的区域，层级在三维模型之上
+.left-box,
+.right-box {
+  z-index: 4;
+  width: 380px;
+}
+.left-box {
+  padding: 30px 30px 0 30px;
+  position: relative;
+  &::before {
+    content: '';
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 82px;
+    height: 100vh;
+    background: url('~@/assets/images/common/left_box_bg.png') no-repeat 0 0;
+    background-size: 100% 100%;
+    z-index: -1;
+  }
+}
+.right-box {
+  padding: 30px 30px 0 30px;
+  position: relative;
+  &::before {
+    content: '';
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 81px;
+    height: 100vh;
+    background: url('~@/assets/images/common/right_box_bg.png') no-repeat 0 0;
+    background-size: 100% 100%;
+    z-index: -1;
+  }
+}
+
+// 中间区域
+.middle-box {
+  position: relative;
+  flex: 1;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+// 标签
+.tag {
+  padding: 0 5px;
+  border-radius: 7px;
+  font-size: $font-size-small;
+}
+.tag-1 {
+  background-color: #ffae00;
+}
+
+// padding
+.pd20 {
+  padding: 20px;
+}
+
+// ncj-tabs
+.ncj-tabs {
+  .tab-item {
+    cursor: pointer;
+    color: $--color-primary;
+    font-weight: bold;
+    opacity: 0.3;
+    padding-bottom: 10px;
+    margin-right: 20px;
+    &.active {
+      opacity: 1;
+    }
+  }
+}
+
+/* 定义常用的弹性布局 */
+.flex1 {
+  flex: 1;
+}
+
+.flexnone {
+  flex: none;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.row-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row-end {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.row-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.row-around {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.column-around {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.column-end {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.column-between {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+// 隐藏高德地图logo
+.amap-logo {
+  display: none !important;
+}
+
+.amap-copyright {
+  display: none !important;
+}
+
+.amap-controlbar {
+  transform: scale(0.7);
+}
+
+// Jessibuca播放器
+.video-box {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: relative;
+  .video-box-play-big {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    &::after {
+      cursor: pointer;
+      content: '';
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      display: block;
+      width: 48px;
+      height: 48px;
+      background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACgklEQVRoQ+3ZPYsTQRjA8eeZZCFlWttAwCIkZOaZJt8hlvkeHrlccuAFT6wEG0FQOeQQLCIWih6chQgKgkkKIyqKCVYip54IWmiQkTmyYhFvd3Zn3yDb7szu/7cv7GaDkPEFM94PK0DSZ9DzDAyHw7uI2HRDlVJX5/N5r9FoHCYdr/fvCRiNRmpJ6AEidoUQ15NG+AH8BgD2n9AHANAmohdJQfwAfgGA4xF4bjabnW21Whob62ILoKNfAsAGEd2PU2ATcNSNiDf0/cE5/xAHxDpgEf0NADaJ6HLUiKgAbvcjpdSGlPJZVJCoAUfdSqkLxWLxTLlc/mkbEgtgET1TSnWklLdtIuIEuN23crlcp16vv7cBSQKgu38AwBYRXQyLSArg3hsjRDxNRE+CQhIF/BN9qVAobFYqle+mkLQAdLd+8K0T0U0TRJoAbvc9fVkJId75gaQRoLv1C2STiPTb7rFLWgE6+g0RncwyYEJEtawCvjDGmpzzp5kD6NfxfD7frtVqB17xen2a7oG3ALBm+oMoFQBEPD+dTvtBfpImDXjIGFvjnD/3c7ksG5MU4HDxWeZa0HB3XhKAXcdxOn5vUi9gnIDXSqm2lHLPK8pkfVyAbSLqm4T5HRs1YB8RO0KIid8g03FRAT4rpbpSyh3TINPxUQB2GGM9zvkn05gg420CJovLZT9ISNA5tgB9ItoOGhFmnh/AcZ/X9xhj65zzV2Eiwsz1A1j2B8dHAOgS0W6YnduY6wkYj8d3lFKn/j66Ea84jtOrVqtfbQSE3YYnYDAY5Eql0hYAnNDv6kKIx2F3anO+J8DmzqLY1goQxVE12ebqDJgcrSjGrs5AFEfVZJt/AF0m+jHzUTtnAAAAAElFTkSuQmCC);
+      background-repeat: no-repeat;
+      background-position: 50%;
+    }
+  }
+}
+
+// 树形控件
+.el-tree {
+  padding: 10px;
+  overflow: auto;
+  .el-tree-node__label {
+    font-size: 14px;
+  }
+}
+
+.el-tree-node {
+  .icon {
+    display: inline-block;
+    margin-right: 10px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  .icon-directory {
+    width: 14px;
+    height: 12px;
+    background-image: url('~@/assets/images/home/icon_directory_default.png');
+  }
+  .icon-camera-1 {
+    width: 11px;
+    height: 13px;
+    background-image: url('~@/assets/images/home/icon_camera_1.png');
+  }
+  .icon-camera-1-disabled {
+    width: 11px;
+    height: 13px;
+    background-image: url('~@/assets/images/home/icon_camera_1_disabled.png');
+  }
+  &.is-expanded {
+    .icon-directory {
+      background-image: url('~@/assets/images/home/icon_directory_expanded.png');
+    }
+  }
+}
+
+.el-tree-node > .el-tree-node__children {
+  overflow: visible !important;
+}

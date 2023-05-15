@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("exports ../../chunks/_rollupPluginBabelHelpers ../../chunks/tslib.es6 ../../core/JSONSupport ../../core/accessorSupport/decorators/property ../../core/accessorSupport/ensureType ../../core/arrayUtils ../../core/has ../../core/accessorSupport/decorators/subclass".split(" "),function(a,d,e,h,g,n,p,q,k){var f;a.CodedValue=f=function(l){function c(b){b=m.call(this,b);b.name=null;b.code=null;return b}d._inherits(c,l);var m=d._createSuper(c);c.prototype.clone=function(){return new f({name:this.name,
+code:this.code})};return d._createClass(c)}(h.JSONSupport);e.__decorate([g.property({type:String,json:{write:!0}})],a.CodedValue.prototype,"name",void 0);e.__decorate([g.property({type:[String,Number],json:{write:!0}})],a.CodedValue.prototype,"code",void 0);a.CodedValue=f=e.__decorate([k.subclass("esri.layers.support.CodedValue")],a.CodedValue);Object.defineProperty(a,Symbol.toStringTag,{value:"Module"})});

@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../../chunks/_rollupPluginBabelHelpers ../../../chunks/tslib.es6 ../../../core/Accessor ../../../core/Collection ../../../core/accessorSupport/decorators/property ../../../core/accessorSupport/ensureType ../../../core/arrayUtils ../../../core/has ../../../core/accessorSupport/decorators/subclass ./GamepadInputDevice".split(" "),function(c,d,a,f,g,n,p,q,h,k){a=function(l){function e(...b){b=m.call(this,...b);b.devices=new f;b.enabledFocusMode="document";return b}c._inherits(e,l);var m=c._createSuper(e);
+return c._createClass(e)}(a);d.__decorate([g.property({type:f.ofType(k),readOnly:!0})],a.prototype,"devices",void 0);d.__decorate([g.property({type:["document","view","none"]})],a.prototype,"enabledFocusMode",void 0);return a=d.__decorate([h.subclass("esri.views.input.gamepad.GamepadSettings")],a)});

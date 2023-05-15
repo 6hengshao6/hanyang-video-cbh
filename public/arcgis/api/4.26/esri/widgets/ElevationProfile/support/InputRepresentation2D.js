@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("exports ../../../chunks/_rollupPluginBabelHelpers ../../../core/asyncUtils ../../../core/maybe ../../../core/promiseUtils ../../../views/support/layerViewUtils".split(" "),function(f,h,k,c,l,m){function n(b){return c.isSome(b.geometry)&&"polyline"===b.geometry.type}let q=function(){function b(a){this._params=a;this._highlightHandle=this._highlightTask=null}var d=b.prototype;d.destroy=function(){this.remove()};d.remove=function(){this._highlightTask=c.abortMaybe(this._highlightTask);this._highlightHandle=
+c.removeMaybe(this._highlightHandle)};d.update=function(a){this.remove();if(!c.isNone(a)&&n(a)){var p=a.layer;this._highlightTask=k.createTask(async e=>{const g=await this._params.view.whenLayerView(p);l.throwIfAborted(e);if(e=m.highlightsSupported(g)?g:null)this._highlightHandle=e.highlight(a)})}};return h._createClass(b)}();f.InputRepresentation2D=q;Object.defineProperty(f,Symbol.toStringTag,{value:"Module"})});

@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define(["exports","../../../../core/maybe","../../../../core/promiseUtils","../../../../support/arcadeOnDemand"],function(p,f,u,v){const q={candidates:[],sourceCandidateIndices:[]};p.queryForSymbologySnapping=async function(d,a,n){if(f.isNone(d)||0===a.candidates.length)return q;var g=d.graphics3DGraphicsByObjectID??d.graphics3DGraphics,c=[];const r=[],{renderer:h}=d,w=f.isSome(h)&&"arcadeRequired"in h&&h.arcadeRequired?v.loadArcade():null;var l=async(e,{graphic:k,graphics3DSymbol:x})=>{const y=await w;
+k=await d.getRenderingInfoAsync(k,h,y,{signal:n});return f.isNone(k)?[]:x.queryForSnapping(e,z,k,n)};const {candidates:t,spatialReference:z}=a;for(a=0;a<t.length;++a){var m=t[a],{objectId:b}=m;b="number"===typeof b?g?.get(b):void 0;if(f.isNone(b))continue;const {graphics3DSymbol:e}=b;e.symbologySnappingSupported&&(c.push(l(m,b)),r.push(a))}if(0===c.length)return q;g=await Promise.all(c);u.throwIfAborted(n);c=[];l=[];for(a=0;a<g.length;++a){m=g[a];b=r[a];for(const e of m)c.push(e),l.push(b)}return{candidates:c,
+sourceCandidateIndices:l}};Object.defineProperty(p,Symbol.toStringTag,{value:"Module"})});

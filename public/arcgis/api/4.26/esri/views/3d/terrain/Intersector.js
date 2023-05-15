@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define(["exports","../../../chunks/_rollupPluginBabelHelpers","../webgl-engine/lib/IntersectorInterfaces","../webgl-engine/lib/IntersectorTarget","../webgl-engine/lib/intersectorUtils"],function(b,d,g,e,h){e=function(a){function f(c,k,l){c=m.call(this,c,k);c.triangleNr=l;return c}d._inherits(f,a);var m=d._createSuper(f);return d._createClass(f)}(e.Graphic3DTarget);b.OverlayTarget=e;b.isOverlayIntersectorResult=function(a){return h.isValidIntersectorResult(a)&&a.intersector===g.IntersectorType.OVERLAY&&
+!!a.target};b.isTerrainIntersectorResult=function(a){return h.isValidIntersectorResult(a)&&a.intersector===g.IntersectorType.TERRAIN&&!!a.target};Object.defineProperty(b,Symbol.toStringTag,{value:"Module"})});

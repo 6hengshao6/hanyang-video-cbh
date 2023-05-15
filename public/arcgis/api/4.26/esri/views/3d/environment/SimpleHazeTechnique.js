@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("require exports ../../../chunks/_rollupPluginBabelHelpers ../../../chunks/FogHaze.glsl ../webgl-engine/core/shaderTechnique/ReloadableShaderModule ../webgl-engine/core/shaderTechnique/ShaderTechnique ../webgl-engine/lib/DefaultVertexAttributeLocations ../webgl-engine/lib/Program ../../webgl/enums ../../webgl/renderState".split(" "),function(h,g,e,k,l,c,m,n,d,f){c=function(b){function a(){return p.apply(this,arguments)}e._inherits(a,b);var p=e._createSuper(a);b=a.prototype;b.initializeProgram=
+function(q){return new n.Program(q.rctx,a.shader.get().build(this.configuration),m.Default3D)};b.initializePipeline=function(){return f.makePipelineState({blending:f.separateBlendingParams(d.BlendFactor.ONE,d.BlendFactor.ZERO,d.BlendFactor.ONE_MINUS_SRC_COLOR,d.BlendFactor.ONE),colorWrite:f.defaultColorWriteParams})};return e._createClass(a)}(c.ShaderTechnique);c.shader=new l.ReloadableShaderModule(k.Haze,()=>new Promise((b,a)=>h(["./FogHaze.glsl"],b,a)));g.SimpleHazeTechnique=c;Object.defineProperty(g,
+Symbol.toStringTag,{value:"Module"})});

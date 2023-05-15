@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("../../../chunks/_rollupPluginBabelHelpers ../../../chunks/tslib.es6 ../../../core/accessorSupport/decorators/property ../../../core/accessorSupport/ensureType ../../../core/arrayUtils ../../../core/has ../../../core/accessorSupport/decorators/subclass ./Input".split(" "),function(c,d,f,a,m,n,g,h){a=function(k){function e(b){b=l.call(this,b);b.maxLength=null;b.minLength=0;return b}c._inherits(e,k);var l=c._createSuper(e);return c._createClass(e)}(h);d.__decorate([f.property({type:Number,json:{write:!0}})],
+a.prototype,"maxLength",void 0);d.__decorate([f.property({type:Number,json:{write:!0}})],a.prototype,"minLength",void 0);return a=d.__decorate([g.subclass("esri.form.elements.inputs.TextInput")],a)});

@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define("exports ../../../chunks/_rollupPluginBabelHelpers ../../../chunks/tslib.es6 ../../../core/Logger ../../../core/accessorSupport/ensureType ../../../core/arrayUtils ../../../core/has ../../../core/Error ../../../core/accessorSupport/decorators/subclass ../resources ../../support/widget ../../support/jsxFactory".split(" "),function(h,e,l,q,r,t,u,v,m,f,k,g){h.FeatureContentMixin=c=>{c=function(n){function d(){var b=p.apply(this,arguments);b.renderNodeContent=a=>k.isWidget(a)&&!a.destroyed?g.tsx("div",
+{class:f.CSS.contentNode,key:a},a.render()):a instanceof HTMLElement?g.tsx("div",{class:f.CSS.contentNode,key:a,bind:a,afterCreate:b._attachToNode}):k.hasDomNode(a)?g.tsx("div",{class:f.CSS.contentNode,key:a,bind:a.domNode,afterCreate:b._attachToNode}):null;return b}e._inherits(d,n);var p=e._createSuper(d);d.prototype._attachToNode=function(b){b.appendChild(this)};return e._createClass(d)}(c);return c=l.__decorate([m.subclass("esri.widgets.Feature.ContentMixin")],c)};Object.defineProperty(h,Symbol.toStringTag,
+{value:"Module"})});

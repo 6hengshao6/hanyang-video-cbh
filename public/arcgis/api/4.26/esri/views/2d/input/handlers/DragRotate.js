@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.27/esri/copyright.txt for details.
+//>>built
+define(["exports","../../../../chunks/_rollupPluginBabelHelpers","../../../input/DragEventSeparator","../../../input/InputHandler","../../../input/handlers/support"],function(h,d,k,e,l){e=function(m){function f(n,p,q){var a=r.call(this,!0);a._view=n;a.pointerAction=p;const g=a._view.mapViewNavigation;a._dragEventSeparator=new k.DragEventSeparator({start:(c,b)=>{g.rotate.begin(a._view,b.data);b.stopPropagation()},update:(c,b)=>{g.rotate.update(a._view,b.data);b.stopPropagation()},end:(c,b)=>{g.rotate.end();
+b.stopPropagation()},condition:(c,b)=>1===c&&l.eventMatchesPointerAction(b.data,a.pointerAction)});a.registerIncoming("drag",q,c=>a._dragEventSeparator.handle(c));return a}d._inherits(f,m);var r=d._createSuper(f);return d._createClass(f)}(e.InputHandler);h.DragRotate=e;Object.defineProperty(h,Symbol.toStringTag,{value:"Module"})});
